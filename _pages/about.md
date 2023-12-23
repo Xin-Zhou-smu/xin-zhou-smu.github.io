@@ -19,8 +19,17 @@ Education
 Publications
 ======
 * <span style="color:red;">[TOSEM 2023].</span> **Representation Learning for Stack Overflow Posts: How Far are We?**
-Junda He, <u>**Xin Zhou**</u>, Bowen Xu, Ting Zhang, Kisub Kim, Zhou Yang, Ivana Clairine Irsan, Ferdian Thung, David Lo
-
+Junda He, **<u>Xin Zhou</u>**, Bowen Xu, Ting Zhang, Kisub Kim, Zhou Yang, Ivana Clairine Irsan, Ferdian Thung, David Lo
+* <span style="color:red;">[TOSEM 2023].</span> **Representation Learning for Stack Overflow Posts: How Far are We?**
+Junda He, **<u>Xin Zhou</u>**, Bowen Xu, Ting Zhang, Kisub Kim, Zhou Yang, Ivana Clairine Irsan, Ferdian Thung, David Lo
+* <span style="color:red;">[TOSEM 2023].</span> **Representation Learning for Stack Overflow Posts: How Far are We?**
+Junda He, **<u>Xin Zhou</u>**, Bowen Xu, Ting Zhang, Kisub Kim, Zhou Yang, Ivana Clairine Irsan, Ferdian Thung, David Lo
+* <span style="color:red;">[TOSEM 2023].</span> **Representation Learning for Stack Overflow Posts: How Far are We?**
+Junda He, **<u>Xin Zhou</u>**, Bowen Xu, Ting Zhang, Kisub Kim, Zhou Yang, Ivana Clairine Irsan, Ferdian Thung, David Lo
+* <span style="color:red;">[TOSEM 2023].</span> **Representation Learning for Stack Overflow Posts: How Far are We?**
+Junda He, **<u>Xin Zhou</u>**, Bowen Xu, Ting Zhang, Kisub Kim, Zhou Yang, Ivana Clairine Irsan, Ferdian Thung, David Lo
+* <span style="color:red;">[TOSEM 2023].</span> **Representation Learning for Stack Overflow Posts: How Far are We?**
+Junda He, **<u>Xin Zhou</u>**, Bowen Xu, Ting Zhang, Kisub Kim, Zhou Yang, Ivana Clairine Irsan, Ferdian Thung, David Lo
 
 
 Teaching
