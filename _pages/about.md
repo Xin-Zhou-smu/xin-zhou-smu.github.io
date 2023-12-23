@@ -19,8 +19,8 @@ Education
 Research Interest
 ======
 My research interest mainly lies in:
-* Understanding the ability of large language models of code (Code LLM) (ICSME'21, ICPC'23, ESEC/FSE'23, ASE'23);
-* Enhancing the ability of large language models of code (Code LLM) (ICSME'23, TOSEM'23, TSE'23, ICSE'24).
+* Understanding the ability of large language models of code (ICSME'21, ICPC'23, ESEC/FSE'23, ASE'23);
+* Enhancing the ability of large language models of code (ICSME'23, TOSEM'23, TSE'23, ICSE'24).
 
 
 Publications
@@ -72,7 +72,7 @@ Talk
 Services
 ======
 * Reviewer @ [Empirical Software Engineering](https://www.springer.com/journal/10664)
-* Junior PC member of the Technical Papers Track @ [MSR'24](https://conf.researchr.org/home/msr-2024](https://2024.msrconf.org/track/msr-2024-technical-papers)
+* Junior PC member of the Technical Papers Track @ [MSR'24](https://2024.msrconf.org/track/msr-2024-technical-papers)
 * Junior PC member of the Technical Papers Track @ [MSR'23](https://conf.researchr.org/home/msr-2023)
 * Student Volunteer @ [ICSME'23](https://conf.researchr.org/home/icsme-2023)
 
