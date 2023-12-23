@@ -25,7 +25,12 @@ My research mainly lies in:
 
 Publications
 ======
+* <span style="color:red;">[ICSE 2024].</span> **Out of Sight, Out of Mind: Better Automatic Vulnerability Repair by Broadening Input Ranges and Sources** <br>
+  **<u>Xin Zhou</u>**, Kisub Kim, Bowen Xu, DongGyun Han, David Lo
 
+* <span style="color:red;">[ICSE 2024].</span> **Curiosity-Driven Testing for Sequential Decision-Making Process** <br>
+  Junda He, Zhou Yang, Jieke Shi, Chengran Yang, Kisub Kim, Bowen Xu, **<u>Xin Zhou</u>**, David Lo
+  
 * <span style="color:red;">[ASE 2023].</span> **The Devil is in the Tails: How Long-Tailed Code Distributions Impact Large Language Models** <br>
   **<u>Xin Zhou</u>**, Kisub Kim, Bowen Xu, Jiakun Liu, DongGyun Han, David Lo
 
