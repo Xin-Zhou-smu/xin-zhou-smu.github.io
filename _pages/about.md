@@ -10,11 +10,18 @@ redirect_from:
 
 My name is Xin Zhou, a four-year Ph.D. student in Computer Science at Singapore Management University (SMU). I am very honored and fortunate to be supervised by [Prof. David Lo](http://www.mysmu.edu/faculty/davidlo/) and be a member of [SOAR](https://soarsmu.github.io/). Previously, I got my Bachelor degree from [Beijing Institute of Technology (BIT)](http://www.bit.edu.cn/)
 
-
 Education
 ======
 * B.S. in Automation Engineering (a sub-major of Electronic Engineering), Beijing Institute of Technology, Aug. 2016 -- Jun. 2020
 * Ph.D. candidate in Computer Science, Singapore Management University, Aug. 2020 -- Dec. 2024 (expected)
+
+
+Research Interests
+======
+My research mainly lies in:
+* Understanding the ability of large language models of code (Code LLM) (ICSME'21, ICPC'23, ESEC/FSE'23, ASE'23);
+* Enhancing the ability of large language models of code (Code LLM) (ICSME'23, TOSEM'23, TSE'23).
+
 
 Publications
 ======
