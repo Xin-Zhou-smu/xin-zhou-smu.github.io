@@ -62,7 +62,7 @@ Publications
 
 Teaching
 ======
-  * Teaching assistant of IS 786 Advanced Research Topics (2023-24 Term1, SMU)
+  * Teaching assistant of IS786 Advanced Research Topics (2023-24 Term1, SMU)
   * Teaching assistant of IS111 Introduction to Programming (2022-23 Term2, SMU)
 
 Talk
