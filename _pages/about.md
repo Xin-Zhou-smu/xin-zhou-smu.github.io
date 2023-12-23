@@ -18,8 +18,8 @@ Education
 
 Publications
 ======
-* [TOSEM 2023] Representation Learning for Stack Overflow Posts: How Far are We?
-Authors: Junda He, Xin Zhou, Bowen Xu, Ting Zhang, Kisub Kim, Zhou Yang, Ivana Clairine Irsan, Ferdian Thung, David Lo
+* <span style="color:blue;">[TOSEM 2023].</span> **Representation Learning for Stack Overflow Posts: How Far are We?**
+Junda He, <u>**Xin Zhou**</u>, Bowen Xu, Ting Zhang, Kisub Kim, Zhou Yang, Ivana Clairine Irsan, Ferdian Thung, David Lo
 
 
 
