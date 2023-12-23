@@ -18,15 +18,10 @@ Education
 
 Publications
 ======
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+# [TOSEM 2023] Representation Learning for Stack Overflow Posts: How Far are We?
 
-{% include base_path %}
+**Authors:** Junda He, Xin Zhou, Bowen Xu, Ting Zhang, Kisub Kim, Zhou Yang, Ivana Clairine Irsan, Ferdian Thung, David Lo
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
 
 
 Teaching
