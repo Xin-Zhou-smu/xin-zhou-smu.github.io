@@ -37,3 +37,11 @@ Services
 * Junior PC member of the Technical Papers Track @ [MSR'24](https://conf.researchr.org/home/msr-2024](https://2024.msrconf.org/track/msr-2024-technical-papers)
 * Junior PC member of the Technical Papers Track @ [MSR'23](https://conf.researchr.org/home/msr-2023)
 * Student Volunteer @ [ICSME'23](https://conf.researchr.org/home/icsme-2023)
+
+
+Honors & Awards
+======
+* Full Scholarship for the Ph.D. study, 2020 - 2024.
+* Outstanding Student Award at Beijing Institute of Technology, 2018.
+
+
