@@ -16,9 +16,9 @@ Education
 * Ph.D. candidate in Computer Science, Singapore Management University, Aug. 2020 -- Dec. 2024 (expected)
 
 
-Research Interests
+Research Interest
 ======
-My research mainly lies in:
+My research interest mainly lies in:
 * Understanding the ability of large language models of code (Code LLM) (ICSME'21, ICPC'23, ESEC/FSE'23, ASE'23);
 * Enhancing the ability of large language models of code (Code LLM) (ICSME'23, TOSEM'23, TSE'23).
 
