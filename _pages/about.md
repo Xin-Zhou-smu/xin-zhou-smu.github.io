@@ -29,36 +29,28 @@ Publications
 * <span style="color:red;">[ASE 2023].</span> **The Devil is in the Tails: How Long-Tailed Code Distributions Impact Large Language Models** <br>
   **<u>Xin Zhou</u>**, Kisub Kim, Bowen Xu, Jiakun Liu, DongGyun Han, David Lo
 
-* <span style="color:red;">[TOSEM 2023].</span> **Representation Learning for Stack Overflow Posts: How Far are We?**
-
+* <span style="color:red;">[TOSEM 2023].</span> **Representation Learning for Stack Overflow Posts: How Far are We?** <br>
   Junda He, **<u>Xin Zhou</u>**, Bowen Xu, Ting Zhang, Kisub Kim, Zhou Yang, Ivana Clairine Irsan, Ferdian Thung, David Lo
 
-* <span style="color:red;">[ICSME 2023].</span> **CCBERT: Self-Supervised Code Change Representation Learning**
-
+* <span style="color:red;">[ICSME 2023].</span> **CCBERT: Self-Supervised Code Change Representation Learning** <br>
   **<u>Xin Zhou</u>**, Bowen Xu, DongGyun Han, Zhou Yang, Junda He, David Lo
 
-* <span style="color:red;">[TSE 2023].</span> **DexBERT: Effective, Task-Agnostic and Fine-grained Representation Learning of Android Bytecode**
-
+* <span style="color:red;">[TSE 2023].</span> **DexBERT: Effective, Task-Agnostic and Fine-grained Representation Learning of Android Bytecode** <br>
   Tiezhu Sun, Kevin Allix, Kisub Kim, **<u>Xin Zhou</u>**, Dongsun Kim, David Lo, Tegawendé F Bissyandé, Jacques Klein
 
-* <span style="color:red;">[ESEC/FSE 2023].</span> **On the Usage of Continual Learning for Out-of-Distribution Generalization in Pre-trained Language Models of Code**
-
+* <span style="color:red;">[ESEC/FSE 2023].</span> **On the Usage of Continual Learning for Out-of-Distribution Generalization in Pre-trained Language Models of Code** <br>
   Martin Weyssow, **<u>Xin Zhou</u>**, Kisub Kim, David Lo, Houari Sahraoui
 
-* <span style="color:red;">[ICPC 2023].</span> **Generation-based Code Review Automation: How Far Are We?**
-
+* <span style="color:red;">[ICPC 2023].</span> **Generation-based Code Review Automation: How Far Are We?** <br>
   **<u>Xin Zhou</u>**, Kisub Kim, Bowen Xu, DongGyun Han, Junda He, David Lo
 
-* <span style="color:red;">[ASE 2022].</span> **Answer Summarization for Technical Queries: Benchmark and New Approach**
-
+* <span style="color:red;">[ASE 2022].</span> **Answer Summarization for Technical Queries: Benchmark and New Approach** <br>
   Chengran Yang, Bowen Xu, Ferdian Thung, Yucen Shi, Ting Zhang, Zhou Yang, **<u>Xin Zhou</u>**, Jieke Shi, Junda He, Donggyun Han, David Lo
 
-* <span style="color:red;">[ICPC 2022].</span> **Simple or complex? together for a more accurate just-in-time defect predictor**
-
+* <span style="color:red;">[ICPC 2022].</span> **Simple or complex? together for a more accurate just-in-time defect predictor** <br>
   **<u>Xin Zhou</u>**, DongGyun Han, David Lo
 
-* <span style="color:red;">[ICSME 2021].</span> **Assessing generalizability of codebert**
-
+* <span style="color:red;">[ICSME 2021].</span> **Assessing generalizability of codebert** <br>
   **<u>Xin Zhou</u>**, DongGyun Han, David Lo
 
 
