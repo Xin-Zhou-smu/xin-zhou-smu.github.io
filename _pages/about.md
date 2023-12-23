@@ -47,10 +47,10 @@ Publications
 * <span style="color:red;">[ASE 2022].</span> **Answer Summarization for Technical Queries: Benchmark and New Approach** <br>
   Chengran Yang, Bowen Xu, Ferdian Thung, Yucen Shi, Ting Zhang, Zhou Yang, **<u>Xin Zhou</u>**, Jieke Shi, Junda He, Donggyun Han, David Lo
 
-* <span style="color:red;">[ICPC 2022].</span> **Simple or complex? together for a more accurate just-in-time defect predictor** <br>
+* <span style="color:red;">[ICPC 2022].</span> **Simple or Complex? Together for a More Accurate Just-in-time Defect Predictor** <br>
   **<u>Xin Zhou</u>**, DongGyun Han, David Lo
 
-* <span style="color:red;">[ICSME 2021].</span> **Assessing generalizability of codebert** <br>
+* <span style="color:red;">[ICSME 2021].</span> **Assessing generalizability of CodeBERT** <br>
   **<u>Xin Zhou</u>**, DongGyun Han, David Lo
 
 
