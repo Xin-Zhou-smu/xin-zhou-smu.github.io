@@ -20,9 +20,11 @@ Publications
 ======
 
 * <span style="color:red;">[ASE 2023].</span> **The Devil is in the Tails: How Long-Tailed Code Distributions Impact Large Language Models**
+
 **<u>Xin Zhou</u>**, Kisub Kim, Bowen Xu, Jiakun Liu, DongGyun Han, David Lo
 
 * <span style="color:red;">[TOSEM 2023].</span> **Representation Learning for Stack Overflow Posts: How Far are We?**
+  
 Junda He, **<u>Xin Zhou</u>**, Bowen Xu, Ting Zhang, Kisub Kim, Zhou Yang, Ivana Clairine Irsan, Ferdian Thung, David Lo
 
 * <span style="color:red;">[ICSME 2023].</span> **CCBERT: Self-Supervised Code Change Representation Learning**
