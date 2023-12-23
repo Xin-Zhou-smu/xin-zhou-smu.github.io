@@ -16,6 +16,18 @@ Education
 * B.S. in Automation Engineering (a sub-major of Electronic Engineering), Beijing Institute of Technology, Aug. 2016 -- Jun. 2020
 * Ph.D. candidate in Computer Science, Singapore Management University, Aug. 2020 -- Dec. 2024 (expected)
 
+Publications
+======
+{% if author.googlescholar %}
+  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+{% endif %}
+
+{% include base_path %}
+
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+
 
 Teaching
 ======
