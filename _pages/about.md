@@ -71,7 +71,7 @@ Talk
   
 Services
 ======
-* Reviewer @ [Empirical Software Engineering](https://www.springer.com/journal/10664)
+* Journal Reviewer @ [Empirical Software Engineering](https://www.springer.com/journal/10664)
 * Junior PC member of the Technical Papers Track @ [MSR'24](https://2024.msrconf.org/track/msr-2024-technical-papers)
 * Junior PC member of the Technical Papers Track @ [MSR'23](https://conf.researchr.org/home/msr-2023)
 * Student Volunteer @ [ICSME'23](https://conf.researchr.org/home/icsme-2023)
