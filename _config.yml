@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Xin Zhou"
-  avatar           : "_images/xin_photo.png"
+  avatar           : "photo.png"
   bio              : "Ph.D. student @ Singapore Management University (SMU)"
   location         : "Singapore"
   # employer         :
