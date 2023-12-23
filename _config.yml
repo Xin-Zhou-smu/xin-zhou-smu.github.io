@@ -64,7 +64,7 @@ facebook:
   publisher              :
 og_image                 :  # Open Graph/Twitter default site image
 # For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
+# - https://developers.google.com/structured-data/customize/social-profilesxin_photo.png
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Xin Zhou"
-  avatar           : "xin_photo.png"
+  avatar           : "_images/xin_photo.png"
   bio              : "Ph.D. student @ Singapore Management University (SMU)"
   location         : "Singapore"
   # employer         :
