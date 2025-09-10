@@ -86,8 +86,9 @@ Publications
 
 Teaching
 ======
-  * Teaching assistant of IS786 Advanced Research Topics (2023-24 Term1, SMU)
-  * Teaching assistant of IS111 Introduction to Programming (2022-23 Term2, SMU)
+  * Teaching Assistant, Introduction to Programming, Singapore Management University, 2022.
+  * Teaching Assistant, Advanced Research Topics, Singapore Management University, 2023.
+  * Teaching Assistant, Advanced Research Topics, Singapore Management University, 2024.
 
 Talk
 ======
@@ -95,7 +96,15 @@ Talk
   
 Services
 ======
-* Journal Reviewer @ [Empirical Software Engineering](https://www.springer.com/journal/10664)
+* Program Committee of Research Track, ICSE 2026
+* Reviewer, ACM IEEE Transactions on Software Engineering (TSE)
+* Reviewer, IEEE Transactions on Information Forensics and Security (TIFS)
+* Distinguished Junior Program Committee Reviewer, MSR 2024
+* Reviewer, Empirical Software Engineering: An International Journal (EMSE)
+* Reviewer, Automated Software Engineering: An International Journal
+* Reviewer, Communications of the ACM (CACM)
+* Program Committee, AIware 2025
+* Program Committee, FORGE 2024 and FORGE 2025
 * Junior PC member of the Technical Papers Track @ [MSR'24](https://2024.msrconf.org/track/msr-2024-technical-papers)
 * Junior PC member of the Technical Papers Track @ [MSR'23](https://conf.researchr.org/home/msr-2023)
 * Student Volunteer @ [ICSME'23](https://conf.researchr.org/home/icsme-2023)
@@ -103,8 +112,9 @@ Services
 
 Honors & Awards
 ======
+* SMU Presidential Doctoral Fellowship in Computing, 2024
 * Full Scholarship for the Ph.D. study, 2020 - 2024.
 * Outstanding Student Award at Beijing Institute of Technology, 2018.
-* SMU Presidential Doctoral Fellowship in Computing, 2024
+
 
 
