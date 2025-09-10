@@ -16,7 +16,7 @@ I received my Ph.D. in January 2025 from the School of Computing and Information
 
 Education
 ======
-* B.S. in Automation Engineering (a sub-major of Electronic Engineering), Beijing Institute of Technology, August 2016 -- July 2020
+* B.S. in Automation Engineering, Beijing Institute of Technology, August 2016 -- July 2020
 * Ph.D. in Computer Science, Singapore Management University, 2025 August 2020 -- January 2025. 
 
 
