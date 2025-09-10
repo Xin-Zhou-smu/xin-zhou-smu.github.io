@@ -90,9 +90,6 @@ Teaching
   * Teaching Assistant, Advanced Research Topics, Singapore Management University, 2023.
   * Teaching Assistant, Advanced Research Topics, Singapore Management University, 2024.
 
-Talk
-======
-  * Data-Centric Analysis of Large Language Models of Code (2023 Fall, NCSU)
   
 Services
 ======
