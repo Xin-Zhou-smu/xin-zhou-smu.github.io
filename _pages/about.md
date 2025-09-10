@@ -8,7 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-My name is Xin Zhou, a four-year Ph.D. student in Computer Science at Singapore Management University (SMU). I am very honored and fortunate to be supervised by [Prof. David Lo](http://www.mysmu.edu/faculty/davidlo/) and be a member of [SOAR](https://soarsmu.github.io/). Previously, I got my Bachelor degree from [Beijing Institute of Technology (BIT)](http://www.bit.edu.cn/)
+My name is Xin Zhou, and I am currently a Research Scientist (equivalent to a Postdoctoral Fellow) in Software Engineering at Singapore Management University (SMU), under the supervision of [Prof. David Lo](http://www.mysmu.edu/faculty/davidlo/).
+
+I received my Ph.D. in January 2025 from the School of Computing and Information Systems, Singapore Management University, where I had the great honor of working with [Prof. David Lo](http://www.mysmu.edu/faculty/davidlo/) and being a member of [SOAR](https://soarsmu.github.io/). Prior to that, I obtained my Bachelor’s degree from [Beijing Institute of Technology (BIT)](http://www.bit.edu.cn/).
+
+
 
 Education
 ======
