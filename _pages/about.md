@@ -16,8 +16,8 @@ I received my Ph.D. in January 2025 from the School of Computing and Information
 
 Education
 ======
-* B.S. in Automation Engineering (a sub-major of Electronic Engineering), Beijing Institute of Technology, Aug. 2016 -- Jun. 2020
-* Ph.D. candidate in Computer Science, Singapore Management University, Aug. 2020 -- Dec. 2024 (expected)
+* B.S. in Automation Engineering (a sub-major of Electronic Engineering), Beijing Institute of Technology, August 2016 -- July 2020
+* Ph.D. in Computer Science, Singapore Management University, 2025 August 2020 -- January 2025. 
 
 
 Research Interest
@@ -29,11 +29,31 @@ My research interest mainly lies in:
 
 Publications
 ======
+
+
+
+* <span style="color:red;">[TOSEM 2025].</span> **Large language model for vulnerability detection and repair: Literature review and the road ahead** <br>
+  **<u>Xin Zhou</u>**, Sicong Cao, Xiaobing Sun, David Lo
+
+* <span style="color:red;">[TOSEM 2025].</span> **Exploring Parameter-Efficient Fine-Tuning Techniques for Code Generation with Large Language Models** <br>
+ Martin Weyssow, **<u>Xin Zhou</u>**, Kisub Kim, David Lo, Houari Sahraoui
+
+* <span style="color:red;">[TOSEM 2025].</span> **How are We Detecting Inconsistent Method Names? An Empirical Study from Code Review Perspective** <br>
+ Kisub Kim, **<u>Xin Zhou</u>**, Dongsun Kim, Julia Lawall, Kui Liu, Tegawendé F Bissyandé, Jacques Klein, Jaekwon Lee, David Lo
+
+* <span style="color:red;">[EMSM 2025].</span> **Bridging expert knowledge with deep learning techniques for just-in-time defect prediction** <br>
+ **<u>Xin Zhou</u>**, DongGyun Han, David Lo
+
+
 * <span style="color:red;">[ICSE 2024].</span> **Out of Sight, Out of Mind: Better Automatic Vulnerability Repair by Broadening Input Ranges and Sources** <br>
   **<u>Xin Zhou</u>**, Kisub Kim, Bowen Xu, DongGyun Han, David Lo
 
 * <span style="color:red;">[ICSE 2024].</span> **Curiosity-Driven Testing for Sequential Decision-Making Process** <br>
   Junda He, Zhou Yang, Jieke Shi, Chengran Yang, Kisub Kim, Bowen Xu, **<u>Xin Zhou</u>**, David Lo
+
+* <span style="color:red;">[TSE 2024].</span> **Leveraging Large Language Model for Automatic Patch Correctness Assessment** <br>
+  **<u>Xin Zhou</u>**, Bowen Xu, Kisub Kim, DongGyun Han, Hung Huu Nguyen, Thanh Le-Cong, Junda He, Bach Le, and David Lo
+  
   
 * <span style="color:red;">[ASE 2023].</span> **The Devil is in the Tails: How Long-Tailed Code Distributions Impact Large Language Models** <br>
   **<u>Xin Zhou</u>**, Kisub Kim, Bowen Xu, Jiakun Liu, DongGyun Han, David Lo
