@@ -105,5 +105,6 @@ Honors & Awards
 ======
 * Full Scholarship for the Ph.D. study, 2020 - 2024.
 * Outstanding Student Award at Beijing Institute of Technology, 2018.
+* SMU Presidential Doctoral Fellowship in Computing, 2024
 
 
