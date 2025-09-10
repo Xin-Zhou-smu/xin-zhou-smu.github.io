@@ -28,19 +28,28 @@ layout: compress
     {% include scripts.html %}
 
   </body>
+
+  <footer style="text-align:center; margin-top: 50px; font-size: 14px; color: gray;">
+    Last updated: <span id="last-updated"></span>
+  </footer>
+
+  <script>
+  document.addEventListener("DOMContentLoaded", function() {
+      var el = document.getElementById("last-updated");
+      var lm = document.lastModified;
+      if (lm) {
+          el.textContent = new Date(lm).toLocaleDateString("en-US", {
+              year: "numeric",
+              month: "short",
+              day: "numeric"
+          });
+      } else {
+          el.textContent = "N/A";
+      }
+  });
+  </script>
+  
 </html>
 
 
-<footer style="text-align:center; margin-top: 50px; font-size: 14px; color: gray;">
-    Last updated: <span id="last-updated"></span>
-</footer>
 
-<script>
-    // 获取当前页面构建/加载的时间
-    document.getElementById("last-updated").textContent =
-        new Date(document.lastModified).toLocaleDateString("en-US", {
-            year: "numeric",
-            month: "short",
-            day: "numeric"
-        });
-</script>
