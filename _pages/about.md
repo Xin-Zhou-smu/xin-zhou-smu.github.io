@@ -26,6 +26,8 @@ My research interest mainly lies in:
 * Understanding the ability of large language models of code (ICSME'21, ICPC'23, ESEC/FSE'23, ASE'23);
 * Enhancing the ability of large language models of code (ICSME'23, TOSEM'23, TSE'23, ICSE'24).
 
+Contact (Email): xinzhou.2020dotphdcs.smu.edu.sg
+
 
 Publications
 ======
