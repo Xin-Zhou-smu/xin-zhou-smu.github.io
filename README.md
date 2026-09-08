@@ -6,11 +6,15 @@ Built with Jekyll and published by GitHub Pages from the `master` branch.
 ## Update content
 
 - `_data/profile.yml`: identity, contact links, research interests, education, teaching, honors, and service.
-- `_data/publications.yml`: the complete publication list. Preserve author order. Add a `selected` number to show an entry on the homepage; the number determines its order. Only add `paper` and `code` URLs once verified.
+- `_data/publications.yml`: the publication list. Preserve author order and use the corresponding Google Scholar record's year for `year`, including when publisher dates differ. Add a `selected` number to show an entry on the homepage; the number determines its order. Only add `paper`, `preprint`, and `code` URLs once verified. Mark arXiv-only works with `status: preprint`.
 - `_data/navigation.yml`: the main navigation.
 - `_includes/academic/home.html`: introductory wording and homepage sections.
 
-The initial migration preserves the 16 papers from the original homepage. Existing titles, author order, and years are retained. The original `EMSM` typo was corrected to `EMSE` against the [SMU publication record](https://ink.library.smu.edu.sg/sis_research/10106/). The email address comes from the original repository configuration and the author’s published papers. Research summaries paraphrase the linked papers; no personal information was copied from the visual references.
+The publication list was refreshed on 2026-09-08 from [Xin Zhou's Google Scholar](https://scholar.google.com/citations?user=eQxzKOUAAAAJ&hl=en&pagesize=100&sortby=pubdate): 42 records become 39 distinct works (6 in 2026 and 14 in 2025). `scholar_ids` maps every source record to its entry. SE-Jury, SeCuRepair, and the code smell detection study each merge their preprint and published records; the published Scholar entry supplies `year`. Other entries retain their own Scholar year, even when their latest title or venue is newer.
+
+Full author lists, current titles, venues, and links were checked against publisher-deposited Crossref metadata, ACL Anthology, and arXiv. `source` records the verification URL. For example, the latest ICSE vulnerability-detection version updates author order, and the TSE bug-localization paper corrects Scholar's “Lulu Lulu” to “Lulu Wang”. `aliases` keeps older titles searchable, including SecureAgentBench and Mind the Gap. Do not create a second entry when a preprint is published; update its metadata and retain the arXiv URL as `preprint`.
+
+The email address comes from the original repository configuration and the author’s published papers. Research summaries paraphrase the linked papers; no personal information was copied from the visual references.
 
 ## Pages and presentation
 

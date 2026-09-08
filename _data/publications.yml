@@ -1,8 +1,288 @@
-# Metadata migrated from Xin Zhou’s original homepage.
+# Refreshed from Xin Zhou's Google Scholar on 2026-09-08 (42 records, 39 distinct works).
+# Author order and final titles checked against publisher deposits / ACL Anthology / arXiv.
+# Prefer the published version; keep a preprint as a separate link, not a duplicate entry.
+# year always follows the corresponding Google Scholar record, per the author's preference.
+# Publisher dates must not override year, even when a final version appeared later.
+# scholar_ids preserve the mapping back to the source profile, including merged duplicates.
 # selected sets homepage order; omit it for full-list-only entries.
-# EMSE abbreviation corrected against the linked SMU publication record.
+- title: A Unified Issue Resolution Benchmark for Requirement Clarification, Planning, and Code Generation for Coding
+    Agents
+  authors:
+  - Xin Zhou
+  - Chun Yong Chong
+  - Kisub Kim
+  - Yun Peng
+  - Rui Shu
+  - Zihan Wu
+  - Xu Han
+  - Guowen Yuan
+  - Zeyang Zhuang
+  - Jounghoon Kim
+  - Jeongjin Ju
+  - Seongmin Ju
+  - Taein Yoon
+  - David Lo
+  year: 2026
+  venue: arXiv
+  status: preprint
+  paper: https://arxiv.org/abs/2608.09072
+  id: a-unified-issue-resolution-benchmark-for-requirement-clarification-planning-and-code-generation-for-coding-agents
+  scholar_ids:
+  - mB3voiENLucC
+  code: https://github.com/Xin-Zhou-smu/SWE-RPG-Bench
+  source: https://arxiv.org/abs/2608.09072
+  selected: 1
+  short_name: SWE-RPG
+  topic: Coding agent evaluation
+  summary: Evaluating coding agents across requirement clarification, implementation planning, and code generation,
+    with validated references for diagnosing where trajectories go wrong.
+- title: 'What Resolve Rate Hides: Trajectory Structure Diagnostics for Coding Agents'
+  authors:
+  - Rui Shu
+  - Chun Yong Chong
+  - Xin Zhou
+  - Yun Peng
+  - Zihan Wu
+  - Xu Han
+  - Zeyang Zhuang
+  - Guowen Yuan
+  - Yuan Wang
+  year: 2026
+  venue: arXiv
+  status: preprint
+  paper: https://arxiv.org/abs/2607.06184
+  id: what-resolve-rate-hides-trajectory-structure-diagnostics-for-coding-agents
+  scholar_ids:
+  - hFOr9nPyWt4C
+  source: https://arxiv.org/abs/2607.06184
+- title: 'SeCuRepair: Semantics-Aligned, Curriculum-Driven, and Reasoning-Enhanced Vulnerability Repair Framework'
+  authors:
+  - Chengran Yang
+  - Ting Zhang
+  - Jinfeng Jiang
+  - Xin Zhou
+  - Haoye Tian
+  - Mingzhe Du
+  - Jieke Shi
+  - Junkai Chen
+  - Yikun Li
+  - Eng Lieh Ouh
+  - Lwin Khin Shar
+  - David Lo
+  venue: ACL
+  year: 2026
+  paper: https://aclanthology.org/2026.acl-long.1481/
+  preprint: https://arxiv.org/abs/2510.01002
+  id: securepair-semantics-aligned-curriculum-driven-and-reasoning-enhanced-vulnerability-repair-framework
+  scholar_ids:
+  - hC7cP41nSMkC
+  - 7PzlFSSx8tAC
+  aliases:
+  - Semantics-Aligned, Curriculum-Driven, and Reasoning-Enhanced Vulnerability Repair Framework
+  source: https://aclanthology.org/2026.acl-long.1481/
+  selected: 2
+  short_name: SeCuRepair
+  topic: Vulnerability repair
+  summary: Combining explicit repair reasoning, semantics-aware reinforcement learning, and a difficulty-based training
+    curriculum to improve vulnerability repair across repositories.
+- title: 'Bridging Bug Localization and Issue Fixing: A Hierarchical Localization Framework Leveraging Large Language
+    Models'
+  authors:
+  - Jianming Chang
+  - Xin Zhou
+  - Lulu Wang
+  - David Lo
+  - Bixin Li
+  venue: TSE
+  year: 2026
+  paper: https://doi.org/10.1109/tse.2026.3668601
+  source: https://api.crossref.org/works/10.1109/tse.2026.3668601
+  preprint: https://arxiv.org/abs/2502.15292
+  id: bridging-bug-localization-and-issue-fixing-a-hierarchical-localization-framework-leveraging-large-language-models
+  scholar_ids:
+  - ZeXyd9-uunAC
+- title: 'Beyond Function-Level Analysis: Context-Aware Reasoning for Inter-Procedural Vulnerability Detection'
+  authors:
+  - Yikun Li
+  - Ting Zhang
+  - Jieke Shi
+  - Chengran Yang
+  - Junda He
+  - Xin Zhou
+  - Jinfeng Jiang
+  - Huihui Huang
+  - Wen Bin Leow
+  - Yide Yin
+  - Eng Lieh Ouh
+  - Lwin Khin Shar
+  - David Lo
+  year: 2026
+  venue: arXiv
+  status: preprint
+  paper: https://arxiv.org/abs/2602.06751
+  id: beyond-function-level-analysis-context-aware-reasoning-for-inter-procedural-vulnerability-detection
+  scholar_ids:
+  - -f6ydRqryjwC
+  source: https://arxiv.org/abs/2602.06751
+- title: 'Out of Distribution, Out of Luck: How Well Can LLMs Trained on Vulnerability Datasets Detect Top 25 CWE
+    Weaknesses?'
+  authors:
+  - Yikun Li
+  - Ngoc Tan Bui
+  - Ting Zhang
+  - Chengran Yang
+  - Xin Zhou
+  - Martin Weyssow
+  - Jinfeng Jiang
+  - Junkai Chen
+  - Huihui Huang
+  - Huu Hung Nguyen
+  - Chiok Yew Ho
+  - Jie Tan
+  - Ruiyin Li
+  - Yide Yin
+  - Han Wei Ang
+  - Frank Liauw
+  - Eng Lieh Ouh
+  - Lwin Khin Shar
+  - David Lo
+  venue: ICSE
+  year: 2026
+  paper: https://doi.org/10.1145/3744916.3787830
+  preprint: https://arxiv.org/abs/2507.21817
+  source: https://arxiv.org/abs/2507.21817
+  id: out-of-distribution-out-of-luck-how-well-can-llms-trained-on-vulnerability-datasets-detect-top-25-cwe-weaknesses
+  scholar_ids:
+  - QIV2ME_5wuYC
+- title: 'SE-Jury: An LLM-as-Ensemble-Judge Metric for Narrowing the Gap with Human Evaluation in SE'
+  authors:
+  - Xin Zhou
+  - Kisub Kim
+  - Ting Zhang
+  - Martin Weyssow
+  - Luís F. Gomes
+  - Guang Yang
+  - Kui Liu
+  - Xin Xia
+  - David Lo
+  venue: ASE
+  year: 2025
+  paper: https://doi.org/10.1109/ase63991.2025.00214
+  source: https://api.crossref.org/works/10.1109/ase63991.2025.00214
+  preprint: https://arxiv.org/abs/2505.20854
+  id: se-jury-an-llm-as-ensemble-judge-metric-for-narrowing-the-gap-with-human-evaluation-in-se
+  scholar_ids:
+  - qUcmZB5y_30C
+  - mVmsd5A6BfQC
+  aliases:
+  - An LLM-as-Judge Metric for Bridging the Gap with Human Evaluation in SE Tasks
+  - SWE-Judge
+  selected: 3
+  short_name: SE-Jury
+  topic: LLM evaluation
+  summary: Combining specialized LLM judges with dynamic team selection to evaluate generated code, patches, and
+    summaries in closer agreement with human judgments.
+- title: 'SecureVibeBench: Benchmarking Secure Vibe Coding of AI Agents via Reconstructing Vulnerability-Introducing
+    Scenarios'
+  authors:
+  - Junkai Chen
+  - Huihui Huang
+  - Yunbo Lyu
+  - Junwen An
+  - Jieke Shi
+  - Chengran Yang
+  - Ting Zhang
+  - Haoye Tian
+  - Yikun Li
+  - Zhenhao Li
+  - Xin Zhou
+  - Xing Hu
+  - David Lo
+  venue: ACL
+  year: 2025
+  paper: https://aclanthology.org/2026.acl-long.1107/
+  preprint: https://arxiv.org/abs/2509.22097
+  id: securevibebench-benchmarking-secure-vibe-coding-of-ai-agents-via-reconstructing-vulnerability-introducing-scenarios
+  scholar_ids:
+  - L8Ckcad2t8MC
+  aliases:
+  - 'SecureAgentBench: Benchmarking Secure Code Generation under Realistic Vulnerability Scenarios'
+  code: https://github.com/iCSawyer/SecureVibeBench
+  source: https://aclanthology.org/2026.acl-long.1107/
+- title: 'VisDocSketcher: Towards Scalable Visual Documentation with Agentic Systems'
+  authors:
+  - Luís F. Gomes
+  - Xin Zhou
+  - David Lo
+  - Rui Abreu
+  year: 2025
+  venue: arXiv
+  status: preprint
+  paper: https://arxiv.org/abs/2509.11942
+  id: visdocsketcher-towards-scalable-visual-documentation-with-agentic-systems
+  scholar_ids:
+  - dhFuZR0502QC
+  source: https://arxiv.org/abs/2509.11942
+- title: 'SLICEMATE: Accurate and Scalable Static Program Slicing via LLM-Powered Agents'
+  authors:
+  - Jianming Chang
+  - Jieke Shi
+  - Yunbo Lyu
+  - Xin Zhou
+  - Lulu Wang
+  - Zhou Yang
+  - Bixin Li
+  - David Lo
+  year: 2025
+  venue: arXiv
+  status: preprint
+  paper: https://arxiv.org/abs/2507.18957
+  id: slicemate-accurate-and-scalable-static-program-slicing-via-llm-powered-agents
+  scholar_ids:
+  - 9ZlFYXVOiuMC
+  source: https://arxiv.org/abs/2507.18957
+- title: 'Beyond Surface Similarity: Evaluating LLM-Based Test Refactorings with Structural and Semantic Awareness'
+  authors:
+  - Wendkûuni C. Ouédraogo
+  - Yinghua Li
+  - Xueqi Dang
+  - Xin Zhou
+  - Anil Koyuncu
+  - Jacques Klein
+  - David Lo
+  - Tegawendé F. Bissyandé
+  year: 2025
+  venue: arXiv
+  status: preprint
+  paper: https://arxiv.org/abs/2506.06767
+  id: beyond-surface-similarity-evaluating-llm-based-test-refactorings-with-structural-and-semantic-awareness
+  scholar_ids:
+  - qxL8FJ1GzNcC
+  source: https://arxiv.org/abs/2506.06767
+- title: 'Rethinking Cognitive Complexity for Unit Tests: Toward a Readability-Aware Metric Grounded in Developer
+    Perception'
+  authors:
+  - Wendkûuni C. Ouédraogo
+  - Yinghua Li
+  - Xueqi Dang
+  - Xin Zhou
+  - Anil Koyuncu
+  - Jacques Klein
+  - David Lo
+  - Tegawendé F. Bissyandé
+  venue: ICSME NIER
+  year: 2025
+  paper: https://doi.org/10.1109/icsme64153.2025.00082
+  source: https://api.crossref.org/works/10.1109/icsme64153.2025.00082
+  preprint: https://arxiv.org/abs/2506.06764
+  id: rethinking-cognitive-complexity-for-unit-tests-toward-a-readability-aware-metric-grounded-in-developer-perception
+  scholar_ids:
+  - M3ejUd6NZC8C
+  aliases:
+  - 'Mind the Gap: A Readability-Aware Metric for Test Code Complexity'
+  code: https://github.com/Cwendkuuni/CCTR
 - id: large-language-model-for-vulnerability-detection-and-repair-literature-review-and-the-road-ahead
-  title: 'Large language model for vulnerability detection and repair: Literature review and the road ahead'
+  title: 'Large Language Model for Vulnerability Detection and Repair: Literature Review and the Road Ahead'
   authors:
   - Xin Zhou
   - Sicong Cao
@@ -10,30 +290,71 @@
   - David Lo
   venue: TOSEM
   year: 2025
-- id: exploring-parameter-efficient-fine-tuning-techniques-for-code-generation-with-large-language-models
-  title: Exploring Parameter-Efficient Fine-Tuning Techniques for Code Generation with Large Language Models
+  paper: https://doi.org/10.1145/3708522
+  source: https://api.crossref.org/works/10.1145/3708522
+  scholar_ids:
+  - YOwf2qJgpHMC
+- title: 'CODE-DITING: A Reasoning-Based Metric for Functional Alignment in Code Evaluation'
   authors:
+  - Guang Yang
+  - Yu Zhou
+  - Xiang Chen
+  - Wei Zheng
+  - Xing Hu
+  - Xin Zhou
+  - David Lo
+  - Taolue Chen
+  year: 2025
+  venue: arXiv
+  status: preprint
+  paper: https://arxiv.org/abs/2505.19502
+  id: code-diting-a-reasoning-based-metric-for-functional-alignment-in-code-evaluation
+  scholar_ids:
+  - Wp0gIr-vW9MC
+  source: https://arxiv.org/abs/2505.19502
+- title: Assessing and Advancing Benchmarks for Evaluating Large Language Models in Software Engineering Tasks
+  authors:
+  - Xing Hu
+  - Feifei Niu
+  - Junkai Chen
+  - Xin Zhou
+  - Junwei Zhang
+  - Junda He
+  - Xin Xia
+  - David Lo
+  venue: TOSEM
+  year: 2025
+  paper: https://doi.org/10.1145/3786771
+  source: https://api.crossref.org/works/10.1145/3786771
+  preprint: https://arxiv.org/abs/2505.08903
+  id: assessing-and-advancing-benchmarks-for-evaluating-large-language-models-in-software-engineering-tasks
+  scholar_ids:
+  - 4TOpqqG69KYC
+- title: 'LessLeak-Bench: A First Investigation of Data Leakage in LLMs Across 83 Software Engineering Benchmarks'
+  authors:
+  - Xin Zhou
   - Martin Weyssow
-  - Xin Zhou
-  - Kisub Kim
+  - Ratnadira Widyasari
+  - Ting Zhang
+  - Junda He
+  - Yunbo Lyu
+  - Jianming Chang
+  - Beiqi Zhang
+  - Dan Huang
   - David Lo
-  - Houari Sahraoui
-  venue: TOSEM
   year: 2025
-- id: how-are-we-detecting-inconsistent-method-names-an-empirical-study-from-code-review-perspective
-  title: How are We Detecting Inconsistent Method Names? An Empirical Study from Code Review Perspective
-  authors:
-  - Kisub Kim
-  - Xin Zhou
-  - Dongsun Kim
-  - Julia Lawall
-  - Kui Liu
-  - Tegawendé F Bissyandé
-  - Jacques Klein
-  - Jaekwon Lee
-  - David Lo
-  venue: TOSEM
-  year: 2025
+  venue: arXiv
+  status: preprint
+  paper: https://arxiv.org/abs/2502.06215
+  id: lessleak-bench-a-first-investigation-of-data-leakage-in-llms-across-83-software-engineering-benchmarks
+  scholar_ids:
+  - 5nxA0vEk-isC
+  source: https://arxiv.org/abs/2502.06215
+  selected: 4
+  short_name: LessLeak-Bench
+  topic: Benchmark reliability
+  summary: Investigating training-data leakage across 83 software engineering benchmarks and removing leaked samples
+    to support more reliable evaluation of code models.
 - id: bridging-expert-knowledge-with-deep-learning-techniques-for-just-in-time-defect-prediction
   title: Bridging expert knowledge with deep learning techniques for just-in-time defect prediction
   authors:
@@ -44,36 +365,54 @@
   year: 2025
   paper: https://doi.org/10.1007/s10664-024-10591-0
   source: https://ink.library.smu.edu.sg/sis_research/10106/
-- id: out-of-sight-out-of-mind-better-automatic-vulnerability-repair-by-broadening-input-ranges-and-sources
-  title: 'Out of Sight, Out of Mind: Better Automatic Vulnerability Repair by Broadening Input Ranges and Sources'
+  scholar_ids:
+  - 8k81kl-MbHgC
+- title: 'Less Is More: DocString Compression in Code Generation'
   authors:
-  - Xin Zhou
-  - Kisub Kim
-  - Bowen Xu
-  - DongGyun Han
-  - David Lo
-  venue: ICSE
-  year: 2024
-  selected: 1
-  short_name: VulMaster
-  topic: Vulnerability repair
-  summary: Broadening the context available to code models with longer inputs, code structure, and expert knowledge
-    for vulnerability repair.
-  paper: https://doi.org/10.1145/3597503.3639222
-  code: https://github.com/soarsmu/VulMaster_
-- id: curiosity-driven-testing-for-sequential-decision-making-process
-  title: Curiosity-Driven Testing for Sequential Decision-Making Process
-  authors:
-  - Junda He
-  - Zhou Yang
-  - Jieke Shi
-  - Chengran Yang
-  - Kisub Kim
-  - Bowen Xu
+  - Guang Yang
+  - Yu Zhou
+  - Wei Cheng
+  - Xiangyu Zhang
+  - Xiang Chen
+  - Terry Yue Zhuo
+  - Ke Liu
   - Xin Zhou
   - David Lo
-  venue: ICSE
-  year: 2024
+  - Taolue Chen
+  venue: TOSEM
+  year: 2025
+  paper: https://doi.org/10.1145/3735636
+  source: https://api.crossref.org/works/10.1145/3735636
+  id: less-is-more-docstring-compression-in-code-generation
+  scholar_ids:
+  - KlAtU1dfN6UC
+- title: 'CodeUltraFeedback: An LLM-as-a-Judge Dataset for Aligning Large Language Models to Coding Preferences'
+  authors:
+  - Martin Weyssow
+  - Aton Kamanda
+  - Xin Zhou
+  - Houari Sahraoui
+  venue: TOSEM
+  year: 2025
+  paper: https://doi.org/10.1145/3736407
+  source: https://api.crossref.org/works/10.1145/3736407
+  id: codeultrafeedback-an-llm-as-a-judge-dataset-for-aligning-large-language-models-to-coding-preferences
+  scholar_ids:
+  - kNdYIx-mwKoC
+- id: exploring-parameter-efficient-fine-tuning-techniques-for-code-generation-with-large-language-models
+  title: Exploring Parameter-Efficient Fine-Tuning Techniques for Code Generation with Large Language Models
+  authors:
+  - Martin Weyssow
+  - Xin Zhou
+  - Kisub Kim
+  - David Lo
+  - Houari Sahraoui
+  venue: TOSEM
+  year: 2025
+  paper: https://doi.org/10.1145/3714461
+  source: https://api.crossref.org/works/10.1145/3714461
+  scholar_ids:
+  - W7OEmFMy1HYC
 - id: leveraging-large-language-model-for-automatic-patch-correctness-assessment
   title: Leveraging Large Language Model for Automatic Patch Correctness Assessment
   authors:
@@ -88,29 +427,119 @@
   - David Lo
   venue: TSE
   year: 2024
-  selected: 2
-  short_name: LLM4PatchCorrect
-  topic: Patch assessment
-  summary: Using code language models and bug-related context to assess patches from previously unseen program repair
-    tools.
   paper: https://doi.org/10.1109/TSE.2024.3452252
-- id: the-devil-is-in-the-tails-how-long-tailed-code-distributions-impact-large-language-models
-  title: 'The Devil is in the Tails: How Long-Tailed Code Distributions Impact Large Language Models'
+  scholar_ids:
+  - 0EnyYjriUFMC
+  source: https://doi.org/10.1109/TSE.2024.3452252
+- title: Comparison of Static Application Security Testing Tools and Large Language Models for Repo-level Vulnerability
+    Detection
+  authors:
+  - Xin Zhou
+  - Duc-Manh Tran
+  - Thanh Le-Cong
+  - Ting Zhang
+  - Ivana Clairine Irsan
+  - Joshua Sumarlin
+  - Bach Le
+  - David Lo
+  year: 2024
+  venue: arXiv
+  status: preprint
+  paper: https://arxiv.org/abs/2407.16235
+  id: comparison-of-static-application-security-testing-tools-and-large-language-models-for-repo-level-vulnerability-detection
+  scholar_ids:
+  - hqOjcs7Dif8C
+  source: https://arxiv.org/abs/2407.16235
+- title: Android Malware Detection Based on Novel Representations of Apps
+  authors:
+  - Tiezhu Sun
+  - Nadia Daoudi
+  - Kevin Allix
+  - Jordan Samhi
+  - Kisub Kim
+  - Xin Zhou
+  - Abdoul Kader Kabore
+  - Dongsun Kim
+  - David Lo
+  - Tegawendé François Bissyandé
+  - Jacques Klein
+  venue: Book chapter
+  year: 2024
+  paper: https://doi.org/10.1007/978-3-031-66245-4_8
+  source: https://api.crossref.org/works/10.1007/978-3-031-66245-4_8
+  id: android-malware-detection-based-on-novel-representations-of-apps
+  scholar_ids:
+  - 4DMP91E08xMC
+  venue_detail: 'Malware: Handbook of Prevention and Detection'
+- title: 'Large Language Model for Vulnerability Detection: Emerging Results and Future Directions'
+  authors:
+  - Xin Zhou
+  - Ting Zhang
+  - David Lo
+  venue: ICSE NIER
+  year: 2024
+  paper: https://doi.org/10.1145/3639476.3639762
+  source: https://api.crossref.org/works/10.1145/3639476.3639762
+  id: large-language-model-for-vulnerability-detection-emerging-results-and-future-directions
+  scholar_ids:
+  - Se3iqnhoufwC
+- id: curiosity-driven-testing-for-sequential-decision-making-process
+  title: Curiosity-Driven Testing for Sequential Decision-Making Process
+  authors:
+  - Junda He
+  - Zhou Yang
+  - Jieke Shi
+  - Chengran Yang
+  - Kisub Kim
+  - Bowen Xu
+  - Xin Zhou
+  - David Lo
+  venue: ICSE
+  year: 2024
+  scholar_ids:
+  - aqlVkmm33-oC
+  source: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=eQxzKOUAAAAJ&citation_for_view=eQxzKOUAAAAJ:aqlVkmm33-oC
+- id: out-of-sight-out-of-mind-better-automatic-vulnerability-repair-by-broadening-input-ranges-and-sources
+  title: 'Out of Sight, Out of Mind: Better Automatic Vulnerability Repair by Broadening Input Ranges and Sources'
   authors:
   - Xin Zhou
   - Kisub Kim
   - Bowen Xu
-  - Jiakun Liu
   - DongGyun Han
   - David Lo
-  venue: ASE
-  year: 2023
-  selected: 4
-  short_name: Long-tailed code
-  topic: Model evaluation
-  summary: Understanding how the long tail of software engineering data affects the performance of large language
-    models for code.
-  paper: https://arxiv.org/abs/2309.03567
+  venue: ICSE
+  year: 2024
+  paper: https://doi.org/10.1145/3597503.3639222
+  code: https://github.com/soarsmu/VulMaster_
+  scholar_ids:
+  - UebtZRa9Y70C
+  source: https://doi.org/10.1145/3597503.3639222
+  selected: 5
+  short_name: VulMaster
+  topic: Vulnerability repair
+  summary: Broadening the context available to code models with longer inputs, code structure, and expert knowledge
+    for vulnerability repair.
+- title: A Comprehensive Evaluation of Parameter-Efficient Fine-Tuning on Code Smell Detection
+  authors:
+  - Beiqi Zhang
+  - Peng Liang
+  - Xin Zhou
+  - Xiyu Zhou
+  - David Lo
+  - Qiong Feng
+  - Zengyang Li
+  - Lin Li
+  venue: TOSEM
+  year: 2024
+  paper: https://doi.org/10.1145/3806390
+  source: https://api.crossref.org/works/10.1145/3806390
+  id: a-comprehensive-evaluation-of-parameter-efficient-fine-tuning-on-code-smell-detection
+  scholar_ids:
+  - IWHjjKOFINEC
+  - Zph67rFs4hoC
+  aliases:
+  - A Comprehensive Evaluation of Parameter-Efficient Fine-Tuning on Method-Level Code Smell Detection
+  preprint: https://arxiv.org/abs/2412.13801
 - id: ccbert-self-supervised-code-change-representation-learning
   title: 'CCBERT: Self-Supervised Code Change Representation Learning'
   authors:
@@ -122,38 +551,31 @@
   - David Lo
   venue: ICSME
   year: 2023
-  selected: 3
+  paper: https://arxiv.org/abs/2309.15474
+  code: https://github.com/soarsmu/CCBERT
+  scholar_ids:
+  - _FxGoFyzp5QC
+  source: https://arxiv.org/abs/2309.15474
+  selected: 6
   short_name: CCBERT
   topic: Representation learning
   summary: Learning fine-grained representations of code changes from old and new code and edit actions, with self-supervised
     pre-training.
-  paper: https://arxiv.org/abs/2309.15474
-  code: https://github.com/soarsmu/CCBERT
-- id: on-the-usage-of-continual-learning-for-out-of-distribution-generalization-in-pre-trained-language-models-of-code
-  title: On the Usage of Continual Learning for Out-of-Distribution Generalization in Pre-trained Language Models
-    of Code
+- id: the-devil-is-in-the-tails-how-long-tailed-code-distributions-impact-large-language-models
+  title: 'The Devil is in the Tails: How Long-Tailed Code Distributions Impact Large Language Models'
   authors:
-  - Martin Weyssow
   - Xin Zhou
   - Kisub Kim
-  - David Lo
-  - Houari Sahraoui
-  venue: ESEC/FSE
-  year: 2023
-- id: representation-learning-for-stack-overflow-posts-how-far-are-we
-  title: 'Representation Learning for Stack Overflow Posts: How Far are We?'
-  authors:
-  - Junda He
-  - Xin Zhou
   - Bowen Xu
-  - Ting Zhang
-  - Kisub Kim
-  - Zhou Yang
-  - Ivana Clairine Irsan
-  - Ferdian Thung
+  - Jiakun Liu
+  - DongGyun Han
   - David Lo
-  venue: TOSEM
+  venue: ASE
   year: 2023
+  paper: https://arxiv.org/abs/2309.03567
+  scholar_ids:
+  - Tyk-4Ss8FVUC
+  source: https://arxiv.org/abs/2309.03567
 - id: dexbert-effective-task-agnostic-and-fine-grained-representation-learning-of-android-bytecode
   title: 'DexBERT: Effective, Task-Agnostic and Fine-grained Representation Learning of Android Bytecode'
   authors:
@@ -167,6 +589,59 @@
   - Jacques Klein
   venue: TSE
   year: 2023
+  scholar_ids:
+  - ufrVoPGSRksC
+  source: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=eQxzKOUAAAAJ&citation_for_view=eQxzKOUAAAAJ:ufrVoPGSRksC
+- id: how-are-we-detecting-inconsistent-method-names-an-empirical-study-from-code-review-perspective
+  title: How Are We Detecting Inconsistent Method Names? An Empirical Study from Code Review Perspective
+  authors:
+  - Kisub Kim
+  - Xin Zhou
+  - Dongsun Kim
+  - Julia Lawall
+  - Kui Liu
+  - Tegawendé F Bissyandé
+  - Jacques Klein
+  - Jaekwon Lee
+  - David Lo
+  venue: TOSEM
+  year: 2023
+  paper: https://doi.org/10.1145/3711901
+  source: https://api.crossref.org/works/10.1145/3711901
+  scholar_ids:
+  - MXK_kJrjxJIC
+- id: on-the-usage-of-continual-learning-for-out-of-distribution-generalization-in-pre-trained-language-models-of-code
+  title: On the Usage of Continual Learning for Out-of-Distribution Generalization in Pre-trained Language Models
+    of Code
+  authors:
+  - Martin Weyssow
+  - Xin Zhou
+  - Kisub Kim
+  - David Lo
+  - Houari Sahraoui
+  venue: ESEC/FSE
+  year: 2023
+  scholar_ids:
+  - u-x6o8ySG0sC
+  source: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=eQxzKOUAAAAJ&citation_for_view=eQxzKOUAAAAJ:u-x6o8ySG0sC
+- id: representation-learning-for-stack-overflow-posts-how-far-are-we
+  title: 'Representation Learning for Stack Overflow Posts: How Far Are We?'
+  authors:
+  - Junda He
+  - Xin Zhou
+  - Bowen Xu
+  - Ting Zhang
+  - Kisub Kim
+  - Zhou Yang
+  - Ferdian Thung
+  - Ivana Clairine Irsan
+  - David Lo
+  venue: TOSEM
+  year: 2023
+  paper: https://doi.org/10.1145/3635711
+  source: https://api.crossref.org/works/10.1145/3635711
+  scholar_ids:
+  - WF5omc3nYNoC
 - id: generation-based-code-review-automation-how-far-are-we
   title: 'Generation-based Code Review Automation: How Far Are We?'
   authors:
@@ -178,14 +653,25 @@
   - David Lo
   venue: ICPC
   year: 2023
-- id: simple-or-complex-together-for-a-more-accurate-just-in-time-defect-predictor
-  title: Simple or Complex? Together for a More Accurate Just-in-time Defect Predictor
+  scholar_ids:
+  - 9yKSN-GCB0IC
+  source: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=eQxzKOUAAAAJ&citation_for_view=eQxzKOUAAAAJ:9yKSN-GCB0IC
+- title: Prioritizing Speech Test Cases
   authors:
+  - Zhou Yang
+  - Jieke Shi
+  - Muhammad Hilmi Asyrofi
+  - Bowen Xu
   - Xin Zhou
-  - DongGyun Han
+  - Donggyun Han
   - David Lo
-  venue: ICPC
-  year: 2022
+  venue: TOSEM
+  year: 2023
+  paper: https://doi.org/10.1145/3707450
+  source: https://api.crossref.org/works/10.1145/3707450
+  id: prioritizing-speech-test-cases
+  scholar_ids:
+  - 3fE2CSJIrl8C
 - id: answer-summarization-for-technical-queries-benchmark-and-new-approach
   title: 'Answer Summarization for Technical Queries: Benchmark and New Approach'
   authors:
@@ -202,6 +688,37 @@
   - David Lo
   venue: ASE
   year: 2022
+  scholar_ids:
+  - qjMakFHDy7sC
+  source: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=eQxzKOUAAAAJ&citation_for_view=eQxzKOUAAAAJ:qjMakFHDy7sC
+- id: simple-or-complex-together-for-a-more-accurate-just-in-time-defect-predictor
+  title: Simple or Complex? Together for a More Accurate Just-in-time Defect Predictor
+  authors:
+  - Xin Zhou
+  - DongGyun Han
+  - David Lo
+  venue: ICPC
+  year: 2022
+  scholar_ids:
+  - zYLM7Y9cAGgC
+  source: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=eQxzKOUAAAAJ&citation_for_view=eQxzKOUAAAAJ:zYLM7Y9cAGgC
+- title: 'Big Code Search: A Bibliography'
+  authors:
+  - Kisub Kim
+  - Sankalp Ghatpande
+  - Dongsun Kim
+  - Xin Zhou
+  - Kui Liu
+  - Tegawendé F. Bissyandé
+  - Jacques Klein
+  - Yves Le Traon
+  venue: CSUR
+  year: 2022
+  paper: https://doi.org/10.1145/3604905
+  source: https://api.crossref.org/works/10.1145/3604905
+  id: big-code-search-a-bibliography
+  scholar_ids:
+  - YsMSGLbcyi4C
 - id: assessing-generalizability-of-codebert
   title: Assessing generalizability of CodeBERT
   authors:
@@ -210,3 +727,6 @@
   - David Lo
   venue: ICSME
   year: 2021
+  scholar_ids:
+  - UeHWp8X0CEIC
+  source: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=eQxzKOUAAAAJ&citation_for_view=eQxzKOUAAAAJ:UeHWp8X0CEIC

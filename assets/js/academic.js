@@ -56,7 +56,7 @@
   const resultCount = document.querySelector('[data-result-count]');
   let selectedYear = 'all';
   const normalize = (text) => text.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/\s+/g, ' ').trim();
-  const searchable = new Map(papers.map(paper => [paper, normalize(paper.textContent)]));
+  const searchable = new Map(papers.map(paper => [paper, normalize(`${paper.textContent} ${paper.dataset.aliases || ''}`)]));
 
   const filter = () => {
     const query = normalize(search.value);
