@@ -1,0 +1,24 @@
+{% assign metrics = site.data.profile.scholar_metrics %}
+{% assign citation_years = metrics.citations_by_year | sort: 'year' %}
+{% assign peak_year = citation_years | sort: 'count' | last %}
+{% assign partial_years = citation_years | where: 'partial', true %}
+<figure class="citation-chart" aria-labelledby="citation-chart-title">
+  <figcaption class="citation-caption">
+    <h2 id="citation-chart-title">Citations by year</h2>
+    <a class="citation-source" href="{{ site.data.profile.scholar }}">Google Scholar {% include academic/icon.html name='external' %}</a>
+    <p class="citation-updated">Updated {{ metrics.checked_on | date: '%b %-d, %Y' }}</p>
+    {% for entry in partial_years %}<p class="citation-partial-note"><span aria-hidden="true"></span>{{ entry.year }}: year to date</p>{% endfor %}
+  </figcaption>
+  <ol class="citation-plot" aria-label="Annual citation counts">
+    {% for entry in citation_years %}
+    {% assign bar_height = entry.count | times: 120.0 | divided_by: peak_year.count | round: 2 %}
+    <li class="citation-column{% if entry.partial %} citation-current{% endif %}" style="--bar-height: {{ bar_height }}px;" aria-label="{{ entry.year }}: {{ entry.count }} citations{% if entry.partial %}, year to date{% endif %}">
+      <span class="citation-bar-area" aria-hidden="true">
+        <span class="citation-value">{{ entry.count }}</span>
+        <span class="citation-bar"></span>
+      </span>
+      <span class="citation-year" aria-hidden="true">{{ entry.year }}</span>
+    </li>
+    {% endfor %}
+  </ol>
+</figure>
