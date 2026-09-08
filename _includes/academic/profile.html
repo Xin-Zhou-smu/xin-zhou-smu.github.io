@@ -1,5 +1,5 @@
 {% assign profile = site.data.profile %}
-<aside class="profile" aria-label="About Xin Zhou">
+<aside class="profile{% if page.page_kind == 'home' %} profile-with-citations{% endif %}" aria-label="About Xin Zhou">
   <div class="profile-inner">
     <a class="portrait-link" href="{{ '/' | relative_url }}" aria-label="Xin Zhou home">
       <img class="portrait" src="{{ profile.photo | relative_url }}" alt="Xin Zhou" width="1280" height="1280" fetchpriority="high">
@@ -19,5 +19,6 @@
       <span class="eyebrow">Research at the intersection of</span>
       <p>Software Engineering<br><span class="note-amp">&</span> Artificial Intelligence</p>
     </div>
+    {% if page.page_kind == 'home' %}{% include academic/citations.html %}{% endif %}
   </div>
 </aside>

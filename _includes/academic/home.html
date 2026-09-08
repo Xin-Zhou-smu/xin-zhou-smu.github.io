@@ -15,10 +15,19 @@
     <span class="stat-item"><span class="stat-separator" aria-hidden="true">|</span> <a href="{{ profile.scholar }}"><strong>{{ profile.scholar_metrics.h_index }}</strong> h-index</a>.</span>
     <a class="collaboration-note" href="mailto:{{ profile.email }}">Open to collaboration.</a>
   </p>
+  <section class="education-summary" aria-labelledby="education-title">
+    <h2 id="education-title" class="sr-only">Education</h2>
+    <ol class="education-list">
+      {% for entry in profile.education %}
+      <li class="education-item">
+        <span class="education-period">{{ entry.period }}</span>
+        <div class="education-details"><h3><a href="{{ entry.url }}">{{ entry.institution }}</a></h3><p>{{ entry.degree }}</p></div>
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
   <a class="text-link intro-link" href="{{ '/publications/' | relative_url }}">Explore my research {% include academic/icon.html name='arrow' %}</a>
 </section>
-
-{% include academic/citations.html %}
 
 <section class="research-section" aria-labelledby="research-title">
   <div class="section-heading"><h2 id="research-title">Research interests</h2><span class="section-aside">Three complementary directions</span></div>
@@ -42,23 +51,12 @@
   </div>
 </section>
 
-<div class="background-grid">
-  <section aria-labelledby="education-title">
-    <div class="section-heading"><h2 id="education-title">Education</h2></div>
-    {% for entry in profile.education %}
-    <div class="education-entry">
-      <span class="institution-mark" aria-hidden="true">{{ entry.abbreviation }}</span>
-      <div><span class="entry-date">{{ entry.period }}</span><h3>{{ entry.institution }}</h3><p>{{ entry.degree }}</p></div>
-    </div>
-    {% endfor %}
-  </section>
-  <section aria-labelledby="honors-title">
+  <section class="honors-section" aria-labelledby="honors-title">
     <div class="section-heading"><h2 id="honors-title">Honors & awards</h2></div>
     {% for award in profile.honors %}
     <div class="honor-entry"><span class="entry-date">{{ award.year }}</span><div><h3>{{ award.title }}</h3>{% if award.detail %}<p>{{ award.detail }}</p>{% endif %}</div></div>
     {% endfor %}
   </section>
-</div>
 
 <section class="contact-section" aria-labelledby="contact-title">
   <div><p class="eyebrow">Get in touch</p><h2 id="contact-title">Let’s talk research.</h2><p>For research inquiries, you can reach me by email.</p></div>

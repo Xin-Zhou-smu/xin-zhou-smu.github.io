@@ -12,7 +12,7 @@ Built with Jekyll and published by GitHub Pages from the `master` branch.
 
 The homepage introduction uses the author-approved biography. Publication and first-author counts are derived from entries without `status: preprint` (currently 30 published works, including one book chapter, and 11 first-author works). The statistics line uses the same publication count; citation and h-index totals come from the Google Scholar **All** columns, stored with their verification date in `profile.scholar_metrics` (1,891 citations and h-index 20, checked on 2026-09-08). Refresh these values from the linked profile when updating the metrics. The compact statistics line takes presentation inspiration from Guang Yang’s homepage.
 
-The annual citation chart between the biography and research interests reads `profile.scholar_metrics.citations_by_year`. These are the five bars displayed on Scholar: 2022–2026 (11, 58, 269, 796, 737). They are annual counts, not cumulative totals, and do not include earlier years. `partial: true` distinguishes an unfinished year; update this flag along with the data and `checked_on` date. The chart uses proportional bars with a zero baseline, visible values, accessible labels, and the site's light/dark palette; it works without JavaScript or external chart services.
+The annual citation chart sits in the homepage's left profile sidebar, below the contact links and research note, and reads `profile.scholar_metrics.citations_by_year`. On mobile it spans the profile area below the contact links. The homepage sidebar scrolls normally so the chart remains reachable in shorter windows. These are the five bars displayed on Scholar: 2022–2026 (11, 58, 269, 796, 737). They are annual counts, not cumulative totals, and do not include earlier years. `partial: true` distinguishes an unfinished year; update this flag along with the data and `checked_on` date. The chart uses proportional bars with a zero baseline, visible values, accessible labels, and the site's light/dark palette; it works without JavaScript or external chart services.
 
 The publication list was refreshed on 2026-09-08 from [Xin Zhou's Google Scholar](https://scholar.google.com/citations?user=eQxzKOUAAAAJ&hl=en&pagesize=100&sortby=pubdate): 42 records become 39 distinct works (6 in 2026 and 14 in 2025). `scholar_ids` maps every source record to its entry. SE-Jury, SeCuRepair, and the code smell detection study each merge their preprint and published records; the published Scholar entry supplies `year`. Other entries retain their own Scholar year, even when their latest title or venue is newer.
 
@@ -24,7 +24,7 @@ The email address comes from the original repository configuration and the autho
 
 ## Pages and presentation
 
-- `/`: profile, research interests, selected publications, education, honors, and contact.
+- `/`: profile with its citation chart, introduction with compact education rows, research interests, selected publications, honors, and contact. The education rows follow the simple date–institution–degree presentation on Guang Yang's homepage; all entries come from `profile.education`.
 - `/publications/`: publications grouped by year, with browser-side search and year filters.
 - `/experience/`: research appointment, education, teaching, service, and honors.
 - Existing `/about/`, `/about.html`, `/cv/`, `/resume`, `/resume/`, `/service/`, and `/services/` links redirect to the corresponding pages.

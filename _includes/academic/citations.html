@@ -11,7 +11,7 @@
   </figcaption>
   <ol class="citation-plot" aria-label="Annual citation counts">
     {% for entry in citation_years %}
-    {% assign bar_height = entry.count | times: 120.0 | divided_by: peak_year.count | round: 2 %}
+    {% assign bar_height = entry.count | times: 96.0 | divided_by: peak_year.count | round: 2 %}
     <li class="citation-column{% if entry.partial %} citation-current{% endif %}" style="--bar-height: {{ bar_height }}px;" aria-label="{{ entry.year }}: {{ entry.count }} citations{% if entry.partial %}, year to date{% endif %}">
       <span class="citation-bar-area" aria-hidden="true">
         <span class="citation-value">{{ entry.count }}</span>
