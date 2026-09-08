@@ -14,6 +14,8 @@ The publication list was refreshed on 2026-09-08 from [Xin Zhou's Google Scholar
 
 Full author lists, current titles, venues, and links were checked against publisher-deposited Crossref metadata, ACL Anthology, and arXiv. `source` records the verification URL. For example, the latest ICSE vulnerability-detection version updates author order, and the TSE bug-localization paper corrects Scholar's “Lulu Lulu” to “Lulu Wang”. `aliases` keeps older titles searchable, including SecureAgentBench and Mind the Gap. Do not create a second entry when a preprint is published; update its metadata and retain the arXiv URL as `preprint`.
 
+Homepage selections include all 21 qualifying CCF-A papers in the current list (TOSEM, TSE, ICSE, ASE, ACL, and ESEC/FSE), plus the existing SWE-RPG, LessLeak-Bench, and CCBERT selections: 24 entries ordered by Scholar year, newest first. Classification follows the [CCF seventh-edition directory released in 2026](https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml). Conference selections count full/regular papers; NIER short papers are not counted as CCF-A. CSUR is not listed in this directory. Recheck venue and paper type when adding a selection; keep `year` tied to Scholar independently of venue classification.
+
 The email address comes from the original repository configuration and the author’s published papers. Research summaries paraphrase the linked papers; no personal information was copied from the visual references.
 
 ## Pages and presentation
