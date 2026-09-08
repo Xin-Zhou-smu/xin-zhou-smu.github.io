@@ -223,6 +223,11 @@ img { max-width: 100%; display: block; }
 .reviewing-list { padding-left: 17px; font-size: 13px; margin: 13px 0 0; }
 .reviewing-list li { padding: 5px 0; }
 .reviewing-list li::marker { color: var(--gold); }
+.mentoring-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 28px; list-style: none; margin: 12px 0 0; padding: 0; }
+.mentoring-list li { min-width: 0; padding: 15px 0; border-bottom: 1px solid var(--border); }
+.grant-contribution { margin-top: 20px; padding: 22px; background: var(--surface); border: 1px solid var(--border); border-radius: 7px; }
+.grant-contribution h3 { margin-bottom: 12px; }
+.grant-contribution .grant-funding { margin-top: 12px; }
 .not-found { padding: 48px 0 120px; }
 .not-found h1 { font-size: 48px; margin: 20px 0; }
 .not-found .text-link { margin-top: 24px; }
@@ -281,6 +286,7 @@ img { max-width: 100%; display: block; }
   .contact-section { margin-top: 39px; }
 }
 @media (max-width: 520px) {
+  .mentoring-list { grid-template-columns: 1fr; }
   .education-item { grid-template-columns: minmax(0, 1fr); gap: 2px; padding-top: 8px; padding-bottom: 8px; }
   .education-details h3 { font-size: 13px; }
   .education-details p { font-size: 12px; white-space: normal; }

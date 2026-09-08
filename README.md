@@ -5,7 +5,7 @@ Built with Jekyll and published by GitHub Pages from the `master` branch.
 
 ## Update content
 
-- `_data/profile.yml`: identity, contact links, research interests, education, teaching, honors, and service.
+- `_data/profile.yml`: identity, contact links, research interests, education, mentoring, grant proposal contributions, teaching, honors, and service.
 - `_data/publications.yml`: the publication list. Preserve author order and use the corresponding Google Scholar record's year for `year`, including when publisher dates differ. Add a `selected` number to show an entry on the homepage; the number determines its order. Only add `paper`, `preprint`, and `code` URLs once verified. Mark arXiv-only works with `status: preprint`.
 - `_data/navigation.yml`: the main navigation.
 - `_includes/academic/home.html`: introductory wording and homepage sections.
@@ -22,14 +22,18 @@ Homepage selections include all 21 qualifying CCF-A papers in the current list (
 
 The email address comes from the original repository configuration and the author’s published papers. Research summaries paraphrase the linked papers; no personal information was copied from the visual references.
 
+Author-approved additions from Xin Zhou's earlier CV include seven mentoring/collaboration records with their historical roles, the Titan Code Analysis proposal contribution, TOSEM and workshop reviewing, the ICSE travel grant and MCM award, and academic grades/rank. The S$3.87M amount is the total awarded to the project; Xin Zhou's stated role is contributing to part of the proposal. Per the author's preference, do not display the Research Scientist appointment start date or corresponding-author markers. Academic grades/rank appear only on the detailed experience page, keeping the homepage education rows compact.
+
 ## Pages and presentation
 
 - `/`: profile with its citation chart, introduction with compact education rows, research interests, selected publications, honors, and contact. The education rows follow the simple date–institution–degree presentation on Guang Yang's homepage; all entries come from `profile.education`.
 - `/publications/`: publications grouped by year, with browser-side search and year filters.
-- `/experience/`: research appointment, education, teaching, service, and honors.
+- `/experience/`: research appointment, education, mentoring, grant proposal contributions, teaching, service, and honors.
 - Existing `/about/`, `/about.html`, `/cv/`, `/resume`, `/resume/`, `/service/`, and `/services/` links redirect to the corresponding pages.
 
 The layout is in `_layouts/academic.html`, components in `_includes/academic/`, styles in `assets/css/academic.css`, and optional interactions in `assets/js/academic.js`. Navigation and publication content remain usable without JavaScript. The color theme follows the system preference until the reader selects a theme; their choice is stored locally.
+
+Stylesheet and script URLs include the build timestamp so refreshed pages use matching assets. GitHub Pages may still cache HTML for up to ten minutes; a version query on the page URL can be used to check a new deployment immediately.
 
 Fonts are hosted locally in `assets/fonts/`, along with their SIL Open Font License notices. The original portrait is reused without altering the image. Unused AcademicPages example pages and collections are retained in source but excluded from the built website in `_config.yml`.
 

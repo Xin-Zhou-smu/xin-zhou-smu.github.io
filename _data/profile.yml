@@ -53,21 +53,51 @@ education:
     degree: Ph.D. in Computer Science
     period: Aug. 2020 – Jan. 2025
     detail: School of Computing and Information Systems
+    academic_record: 'GPA: 3.99 / 4.00'
     url: https://www.smu.edu.sg/
   - institution: Beijing Institute of Technology
     abbreviation: BIT
     degree: B.S. in Automation Engineering
     period: Aug. 2016 – Jul. 2020
+    academic_record: 'Grade: 88.9 / 100 · Graduation rank: 4 / 81'
     url: https://www.bit.edu.cn/
 
 honors:
   - title: SMU Presidential Doctoral Fellowship in Computing
+    year: '2024'
+  - title: ICSE Student Travel Grant
     year: '2024'
   - title: Full Scholarship for Ph.D. Study
     year: '2020–24'
   - title: Outstanding Student Award
     detail: Beijing Institute of Technology
     year: '2018'
+  - title: Meritorious Winner
+    detail: Mathematical Contest in Modeling (MCM)
+    year: '2017'
+
+# Historical roles and proposal contribution supplied by Xin Zhou in his CV.
+mentoring:
+  - name: Jianming Chang
+    role: Visiting PhD student
+  - name: Pietro Cassieri
+    role: Visiting PhD student
+  - name: Beiqi Zhang
+    role: Visiting master's student
+  - name: Haotian Zhu
+    role: Research engineer
+  - name: Joshua Sumarlin
+    role: Research assistant
+  - name: Christian Michael Koh
+    role: Undergraduate student
+  - name: Kanika Selvapandian
+    role: Undergraduate student
+
+grant_contributions:
+  - title: 'Titan Code Analysis: Vulnerability Discovery with Large Code Models'
+    contribution: Contributed to writing part of the funding proposal.
+    funders: National Research Foundation, Singapore, and the Smart Nation Group, Singapore
+    total_project_funding: S$3.87M
 
 teaching:
   - course: Advanced Research Topics
@@ -99,10 +129,15 @@ service:
       year: '2023, 2024'
   reviewing:
     - IEEE Transactions on Software Engineering (TSE)
+    - ACM Transactions on Software Engineering and Methodology (TOSEM) · 2025
     - IEEE Transactions on Information Forensics and Security (TIFS)
     - Empirical Software Engineering (EMSE)
     - Automated Software Engineering
     - Communications of the ACM (CACM)
+  workshop_reviewing:
+    - venue: ICLR Workshop on Deep Learning for Code
+      role: Reviewer
+      year: '2025'
   recognition:
     - title: Distinguished Junior Program Committee Reviewer
       venue: MSR
