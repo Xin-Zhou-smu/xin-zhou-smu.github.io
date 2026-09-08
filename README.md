@@ -24,6 +24,8 @@ The email address comes from the original repository configuration and the autho
 
 Author-approved additions from Xin Zhou's earlier CV include seven mentoring/collaboration records with their historical roles, the Titan Code Analysis proposal contribution, TOSEM and workshop reviewing, the ICSE travel grant and MCM award, and academic grades/rank. The S$3.87M amount is the total awarded to the project; Xin Zhou's stated role is contributing to part of the proposal. Per the author's preference, do not display the Research Scientist appointment start date or corresponding-author markers. Academic grades/rank appear only on the detailed experience page, keeping the homepage education rows compact.
 
+Program committee entries also incorporate the author's supplied conference participation records, retaining the research, tutorials, industry, main-track, and junior-PC distinctions. Only committee roles populate this list; author/presentation records do not imply committee service. The author additionally confirmed journal reviewing for TOSEM, ACM Computing Surveys, and Journal of Software.
+
 ## Pages and presentation
 
 - `/`: profile with its citation chart, introduction with compact education rows, research interests, selected publications, honors, and contact. The education rows follow the simple date–institution–degree presentation on Guang Yang's homepage; all entries come from `profile.education`.

@@ -118,18 +118,32 @@ service:
     - venue: ICSE
       detail: Research Track · Program Committee
       year: '2026, 2027'
-    - venue: AIware
+    - venue: ICSME
+      detail: Research Papers Track · Program Committee
+      year: '2026'
+    - venue: ESEC/FSE
+      detail: Tutorials Track · Program Committee
+      year: '2026'
+    - venue: Promoting and Dealing with Advanced Technology in Healthcare
       detail: Program Committee
       year: '2025'
+    - venue: AIware
+      detail: Main Track · Program Committee
+      year: '2025'
     - venue: FORGE
-      detail: Program Committee
+      detail: Research Track · Program Committee
       year: '2024, 2025'
+    - venue: ICTSS
+      detail: Industry Track · Program Committee
+      year: '2024'
     - venue: MSR
       detail: Technical Papers Track · Junior Program Committee
       year: '2023, 2024'
   reviewing:
     - IEEE Transactions on Software Engineering (TSE)
-    - ACM Transactions on Software Engineering and Methodology (TOSEM) · 2025
+    - ACM Transactions on Software Engineering and Methodology (TOSEM)
+    - ACM Computing Surveys (CSUR)
+    - Journal of Software
     - IEEE Transactions on Information Forensics and Security (TIFS)
     - Empirical Software Engineering (EMSE)
     - Automated Software Engineering
