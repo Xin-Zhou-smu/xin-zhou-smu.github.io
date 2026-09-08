@@ -1,6 +1,6 @@
 {% assign profile = site.data.profile %}
 <header class="page-heading"><p class="eyebrow"><span class="accent-line" aria-hidden="true"></span>Academic background</p><h1>Experience & service<span class="heading-dot">.</span></h1><p>Research, teaching, and contributions to the software engineering community.</p></header>
-<nav class="section-nav" aria-label="On this page"><a href="#appointments">Research</a><a href="#education">Education</a><a href="#mentoring">Mentoring</a><a href="#grants">Grants</a><a href="#teaching">Teaching</a><a href="#service">Service</a><a href="#honors">Honors</a></nav>
+<nav class="section-nav" aria-label="On this page"><a href="#appointments">Research</a><a href="#education">Education</a><a href="#grants">Grants</a><a href="#teaching">Teaching</a><a href="#service">Service</a><a href="#mentoring">Mentoring &amp; Collaborating</a><a href="#honors">Honors</a></nav>
 
 <section class="experience-section" id="appointments" aria-labelledby="appointments-title">
   <div class="section-heading"><h2 id="appointments-title">Research appointment</h2></div>
@@ -9,13 +9,6 @@
 <section class="experience-section" id="education" aria-labelledby="education-title">
   <div class="section-heading"><h2 id="education-title">Education</h2></div>
   {% for entry in profile.education %}<div class="experience-row"><span class="entry-date">{{ entry.period }}</span><div><h3>{{ entry.degree }}</h3><p><a href="{{ entry.url }}">{{ entry.institution }}</a></p>{% if entry.detail %}<p class="muted">{{ entry.detail }}</p>{% endif %}{% if entry.academic_record %}<p class="muted">{{ entry.academic_record }}</p>{% endif %}</div></div>{% endfor %}
-</section>
-<section class="experience-section" id="mentoring" aria-labelledby="mentoring-title">
-  <div class="section-heading"><h2 id="mentoring-title">Mentoring</h2></div>
-  <p>At SMU, I collaborated with and guided the following students and junior researchers.</p>
-  <ul class="mentoring-list">
-    {% for person in profile.mentoring %}<li><h3>{{ person.name }}</h3><p class="muted">{{ person.role }}</p></li>{% endfor %}
-  </ul>
 </section>
 <section class="experience-section" id="grants" aria-labelledby="grants-title">
   <div class="section-heading"><h2 id="grants-title">Grant proposal contributions</h2></div>
@@ -43,6 +36,13 @@
   <h3 class="subsection-title">Recognition & volunteering</h3>
   {% for entry in profile.service.recognition %}<div class="experience-row compact-row"><span class="entry-date">{{ entry.year }}</span><div><h4>{{ entry.title }}</h4><p>{{ entry.venue }}</p></div></div>{% endfor %}
   {% for entry in profile.service.volunteering %}<div class="experience-row compact-row"><span class="entry-date">{{ entry.year }}</span><div><h4>{{ entry.title }}</h4><p>{{ entry.venue }}</p></div></div>{% endfor %}
+</section>
+<section class="experience-section" id="mentoring" aria-labelledby="mentoring-title">
+  <div class="section-heading"><h2 id="mentoring-title">Mentoring &amp; Collaborating</h2></div>
+  <p>At SMU, I collaborated with and guided the following students and junior researchers.</p>
+  <ul class="mentoring-list">
+    {% for person in profile.mentoring %}<li><h3>{{ person.name }}</h3><p class="muted">{{ person.role }}</p></li>{% endfor %}
+  </ul>
 </section>
 <section class="experience-section" id="honors" aria-labelledby="honors-title">
   <div class="section-heading"><h2 id="honors-title">Honors & awards</h2></div>

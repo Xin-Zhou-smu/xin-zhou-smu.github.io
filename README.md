@@ -5,7 +5,7 @@ Built with Jekyll and published by GitHub Pages from the `master` branch.
 
 ## Update content
 
-- `_data/profile.yml`: identity, contact links, research interests, education, mentoring, grant proposal contributions, teaching, honors, and service.
+- `_data/profile.yml`: identity, contact links, research interests, education, mentoring and collaborating, grant proposal contributions, teaching, honors, and service.
 - `_data/publications.yml`: the publication list. Preserve author order and use the corresponding Google Scholar record's year for `year`, including when publisher dates differ. Add a `selected` number to show an entry on the homepage; the number determines its order. Only add `paper`, `preprint`, and `code` URLs once verified. Mark arXiv-only works with `status: preprint`.
 - `_data/navigation.yml`: the main navigation.
 - `_includes/academic/home.html`: introductory wording and homepage sections.
@@ -30,7 +30,7 @@ Program committee entries also incorporate the author's supplied conference part
 
 - `/`: profile with its citation chart, introduction with compact education rows, research interests, selected publications, honors, and contact. The education rows follow the simple date–institution–degree presentation on Guang Yang's homepage; all entries come from `profile.education`.
 - `/publications/`: publications grouped by year, with browser-side search and year filters.
-- `/experience/`: research appointment, education, mentoring, grant proposal contributions, teaching, service, and honors.
+- `/experience/`: research appointment, education, mentoring and collaborating, grant proposal contributions, teaching, service, and honors.
 - Existing `/about/`, `/about.html`, `/cv/`, `/resume`, `/resume/`, `/service/`, and `/services/` links redirect to the corresponding pages.
 
 The layout is in `_layouts/academic.html`, components in `_includes/academic/`, styles in `assets/css/academic.css`, and optional interactions in `assets/js/academic.js`. Navigation and publication content remain usable without JavaScript. The color theme follows the system preference until the reader selects a theme; their choice is stored locally.
