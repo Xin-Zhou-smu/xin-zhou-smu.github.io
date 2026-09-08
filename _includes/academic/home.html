@@ -43,6 +43,8 @@
   </div>
 </section>
 
+{% include academic/news.html %}
+
 <section class="selected-section" aria-labelledby="selected-title">
   <div class="section-heading"><h2 id="selected-title">Selected publications</h2><a class="text-link" href="{{ '/publications/' | relative_url }}">View all {% include academic/icon.html name='arrow' %}</a></div>
   {% assign selected = site.data.publications | where_exp: 'paper', 'paper.selected != nil' | sort: 'selected' %}

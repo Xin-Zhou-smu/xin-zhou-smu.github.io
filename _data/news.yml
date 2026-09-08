@@ -1,0 +1,29 @@
+# Recent updates shown on the homepage, newest first.
+# Use an exact month only when it is supported by a public source.
+- date: '2026.08'
+  text: Released SWE-RPG, a unified issue-resolution benchmark for requirement clarification, implementation planning, and code generation by coding agents.
+  url: https://arxiv.org/abs/2608.09072
+  link_label: SWE-RPG paper
+- date: '2026.07'
+  text: Released TraceProbe, a framework for diagnosing coding agents through trajectory structure beyond resolve rate.
+  url: https://arxiv.org/abs/2607.06184
+  link_label: TraceProbe paper
+- date: '2026'
+  text: Two papers on vulnerability repair and secure coding agents appear at ACL 2026.
+  links:
+    - label: SeCuRepair
+      url: https://aclanthology.org/2026.acl-long.1481/
+    - label: SecureVibeBench
+      url: https://aclanthology.org/2026.acl-long.1107/
+- date: '2026'
+  text: Our study of out-of-distribution vulnerability detection appears at ICSE 2026.
+  url: https://doi.org/10.1145/3744916.3787830
+  link_label: Paper
+- date: '2026'
+  text: Our hierarchical framework bridging bug localization and issue fixing appears in IEEE TSE.
+  url: https://doi.org/10.1109/TSE.2026.3668601
+  link_label: Paper
+- date: '2025'
+  text: SE-Jury, our human-aligned LLM-as-ensemble-judge metric, appears at ASE 2025.
+  url: https://doi.org/10.1109/ASE63991.2025.00214
+  link_label: Paper

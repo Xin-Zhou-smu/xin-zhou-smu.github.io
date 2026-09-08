@@ -1,0 +1,15 @@
+<section class="news-section" aria-labelledby="news-title">
+  <div class="section-heading">
+    <h2 id="news-title">Recent news</h2>
+    <span class="section-aside">Research &amp; community updates</span>
+  </div>
+  <ol class="news-list">
+    {% for item in site.data.news %}
+    <li class="news-item">
+      <time class="news-date">{{ item.date }}</time>
+      <span class="news-marker" aria-hidden="true"></span>
+      <p>{{ item.text }}{% if item.url %} <a href="{{ item.url }}">{{ item.link_label | default: 'Details' }} {% include academic/icon.html name='external' %}</a>{% endif %}{% if item.links %}{% for link in item.links %}{% if forloop.first %} {% else %} · {% endif %}<a href="{{ link.url }}">{{ link.label }} {% include academic/icon.html name='external' %}</a>{% endfor %}{% endif %}</p>
+    </li>
+    {% endfor %}
+  </ol>
+</section>

@@ -138,7 +138,7 @@ img { max-width: 100%; display: block; }
 .citation-year { font-size: 9px; line-height: 20px; color: var(--muted); }
 .citation-current .citation-bar { background: var(--gold); }
 .citation-current .citation-year { color: var(--gold); font-weight: 600; }
-.research-section, .selected-section, .honors-section { margin-top: 48px; }
+.research-section, .news-section, .selected-section, .honors-section { margin-top: 48px; }
 .section-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; border-bottom: 1px solid var(--border); padding-bottom: 13px; margin-bottom: 23px; }
 .section-heading h2 { font-size: 27px; line-height: 1.3; letter-spacing: -.6px; }
 .section-aside { font-size: 10px; color: var(--muted); }
@@ -149,6 +149,14 @@ img { max-width: 100%; display: block; }
 .research-area h3 { font-size: 14px; min-height: 3.5em; margin-bottom: 8px; }
 .research-area p { font-size: 12px; line-height: 1.8; }
 .research-keywords { display: block; margin-top: auto; padding-top: 12px; color: var(--muted); font-size: 10px; }
+.news-section .section-heading { margin-bottom: 5px; }
+.news-list { list-style: none; margin: 0; padding: 0; }
+.news-item { display: grid; grid-template-columns: 64px 8px minmax(0, 1fr); align-items: start; gap: 13px; padding: 13px 0; border-bottom: 1px solid var(--border); }
+.news-date { padding-top: 2px; color: var(--muted); font-size: 10px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.news-marker { width: 7px; height: 7px; margin-top: 7px; border: 2px solid var(--gold); border-radius: 50%; background: var(--background); }
+.news-item p { font-size: 12px; line-height: 1.75; }
+.news-item a { display: inline-flex; align-items: center; gap: 2px; font-weight: 500; white-space: nowrap; }
+.news-item a .icon { width: 12px; height: 12px; }
 .selected-section .section-heading { margin-bottom: 0; }
 .paper { padding: 23px 0; border-bottom: 1px solid var(--border); }
 .paper-selected { display: grid; grid-template-columns: 84px minmax(0, 1fr); gap: 23px; padding: 26px 0; }
@@ -274,7 +282,7 @@ img { max-width: 100%; display: block; }
   .main-content { margin-top: 35px; }
   .eyebrow { font-size: 9px; letter-spacing: 1.1px; }
   .intro-copy { font-size: 14px; }
-  .research-section, .selected-section, .honors-section { margin-top: 39px; }
+  .research-section, .news-section, .selected-section, .honors-section { margin-top: 39px; }
   .section-heading h2 { font-size: 25px; }
   .research-grid { gap: 25px; }
   .research-area h3 { font-size: 13px; }
@@ -314,6 +322,8 @@ img { max-width: 100%; display: block; }
   .section-heading h2 { font-size: 24px; }
   .section-heading .text-link { font-size: 11px; white-space: nowrap; }
   .research-grid { grid-template-columns: 1fr; gap: 24px; }
+  .news-item { grid-template-columns: 55px 7px minmax(0, 1fr); gap: 10px; padding: 14px 0; }
+  .news-item p { font-size: 13px; }
   .research-area h3 { font-size: 14px; }
   .research-area p { font-size: 13px; }
   .research-keywords { padding-top: 8px; }
