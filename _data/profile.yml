@@ -16,14 +16,18 @@ group: SOAR
 group_url: https://soarsmu.github.io/
 
 research:
-  - title: Understanding code models
-    icon: search
-    description: Studying generalization, long-tailed data, and the capabilities of language models for code.
-    keywords: Model evaluation · Generalization
-  - title: Improving code models
+  - title: Agentic Software Engineering
     icon: code
-    description: Learning better code representations and applying language models to vulnerability repair and patch assessment.
-    keywords: Representation learning · Software reliability
+    description: Understanding and improving coding agents for software development, with an emphasis on requirement clarification, planning, program analysis, and issue resolution.
+    keywords: Coding agents · Planning · Program analysis
+  - title: Reliable Evaluation and Generalization
+    icon: search
+    description: Developing reliable benchmarks and evaluation methods for code models and agents, with attention to human judgments, benchmark contamination, and generalization across distributions.
+    keywords: LLM-as-a-Judge · Benchmarking · Generalization
+  - title: AI for Software Security and Reliability
+    icon: shield
+    description: Developing AI techniques for vulnerability detection, automated repair, and software quality assurance, combining program context, semantic reasoning, and learning from code.
+    keywords: Vulnerability detection · Automated repair · Software reliability
 
 education:
   - institution: Singapore Management University

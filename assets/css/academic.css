@@ -112,13 +112,13 @@ img { max-width: 100%; display: block; }
 .section-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; border-bottom: 1px solid var(--border); padding-bottom: 13px; margin-bottom: 23px; }
 .section-heading h2 { font-size: 27px; line-height: 1.3; letter-spacing: -.6px; }
 .section-aside { font-size: 10px; color: var(--muted); }
-.research-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 30px; }
-.research-area { position: relative; }
+.research-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+.research-area { position: relative; display: flex; flex-direction: column; }
 .research-icon { color: var(--accent); margin-bottom: 12px; }
 .research-icon .icon { width: 23px; height: 23px; }
-.research-area h3 { font-size: 14px; margin-bottom: 8px; }
+.research-area h3 { font-size: 14px; min-height: 3.5em; margin-bottom: 8px; }
 .research-area p { font-size: 12px; line-height: 1.8; }
-.research-keywords { display: block; margin-top: 12px; color: var(--muted); font-size: 10px; }
+.research-keywords { display: block; margin-top: auto; padding-top: 12px; color: var(--muted); font-size: 10px; }
 .selected-section .section-heading { margin-bottom: 0; }
 .paper { padding: 23px 0; border-bottom: 1px solid var(--border); }
 .paper-selected { display: grid; grid-template-columns: 84px minmax(0, 1fr); gap: 23px; padding: 26px 0; }
@@ -207,6 +207,10 @@ img { max-width: 100%; display: block; }
   .profile-name { font-size: 31px; gap: 10px; }
   .profile-name span { font-size: 16px; }
   .section-aside { display: none; }
+  .research-grid { grid-template-columns: 1fr; }
+  .research-area { padding-left: 36px; }
+  .research-area h3 { min-height: 0; }
+  .research-icon { position: absolute; left: 0; top: 0; }
   .background-grid { grid-template-columns: 1fr; gap: 30px; }
   .intro h1 { font-size: 38px; }
   .filter-row { flex-wrap: wrap; gap: 6px; }
@@ -275,11 +279,9 @@ img { max-width: 100%; display: block; }
   .section-heading h2 { font-size: 24px; }
   .section-heading .text-link { font-size: 11px; white-space: nowrap; }
   .research-grid { grid-template-columns: 1fr; gap: 24px; }
-  .research-area { padding-left: 36px; }
-  .research-icon { position: absolute; left: 0; top: 0; }
   .research-area h3 { font-size: 14px; }
   .research-area p { font-size: 13px; }
-  .research-keywords { margin-top: 8px; }
+  .research-keywords { padding-top: 8px; }
   .paper-selected { grid-template-columns: 1fr; gap: 12px; position: relative; }
   .paper-tile { display: inline-flex; flex-direction: row; min-height: 0; align-items: center; gap: 8px; justify-self: start; padding: 3px 8px; border: 0; border-radius: 4px; background: var(--accent-soft); }
   .paper-tile strong { font: 10px var(--sans); }
