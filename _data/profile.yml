@@ -9,6 +9,11 @@ photo: /images/photo.png
 # Address already present in the original site's configuration and published papers.
 email: xinzhou.2020@phdcs.smu.edu.sg
 scholar: https://scholar.google.com/citations?user=eQxzKOUAAAAJ
+# Google Scholar's All columns, checked directly against the public profile.
+scholar_metrics:
+  citations: 1891
+  h_index: 20
+  checked_on: '2026-09-08'
 github: https://github.com/Xin-Zhou-smu
 supervisor: David Lo
 supervisor_url: http://www.mysmu.edu/faculty/davidlo/
@@ -18,12 +23,12 @@ group_url: https://soarsmu.github.io/
 research:
   - title: Agentic Software Engineering
     icon: code
-    description: Understanding and improving coding agents for software development, with an emphasis on requirement clarification, planning, program analysis, and issue resolution.
-    keywords: Coding agents · Planning · Program analysis
+    description: Improving coding agents’ core capabilities in requirement clarification, solution planning, program analysis, and issue resolution, using trajectory analysis to identify bottlenecks and guide improvements.
+    keywords: Coding agents · Core capabilities · Trajectory analysis
   - title: Reliable Evaluation and Generalization
     icon: search
-    description: Developing reliable benchmarks and evaluation methods for code models and agents, with attention to human judgments, benchmark contamination, and generalization across distributions.
-    keywords: LLM-as-a-Judge · Benchmarking · Generalization
+    description: Evaluating code LLMs and coding agents through human judgments, benchmark contamination analysis, and generalization beyond training distributions, extending from individual development tasks to long-horizon workflows.
+    keywords: LLM-as-a-Judge · Generalization · Long-horizon evaluation
   - title: AI for Software Security and Reliability
     icon: shield
     description: Developing AI techniques for vulnerability detection, automated repair, and software quality assurance, combining program context, semantic reasoning, and learning from code.
@@ -69,7 +74,7 @@ service:
   committees:
     - venue: ICSE
       detail: Research Track · Program Committee
-      year: '2026'
+      year: '2026, 2027'
     - venue: AIware
       detail: Program Committee
       year: '2025'

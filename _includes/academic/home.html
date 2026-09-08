@@ -1,12 +1,20 @@
 {% assign profile = site.data.profile %}
-<section class="intro" aria-labelledby="intro-title">
+{% assign published_papers = site.data.publications | where_exp: 'paper', 'paper.status != "preprint"' %}
+{% assign first_author_papers = published_papers | where_exp: 'paper', 'paper.authors.first == profile.name' %}
+<section class="intro" aria-label="About {{ profile.name }}">
   <p class="eyebrow intro-eyebrow"><span class="accent-line" aria-hidden="true"></span>Software Engineering & Artificial Intelligence</p>
-  <h1 id="intro-title">Understanding and<br><em>improving AI for code.</em></h1>
   <div class="intro-copy">
-    <p>I am <strong>Xin Zhou</strong>, a Research Scientist (equivalent to a Postdoctoral Fellow) in Software Engineering at <a href="{{ profile.institution_url }}">Singapore Management University</a>, working with Prof. <a href="{{ profile.supervisor_url }}">David Lo</a>.</p>
-    <p>My research focuses on understanding, evaluating, and improving AI systems for software engineering, particularly coding agents, their reliability and generalization, and their applications to software security and maintenance.</p>
-    <p>I received my Ph.D. from SMU in January 2025, where I was a member of <a href="{{ profile.group_url }}">SOAR</a>. Before that, I completed my bachelor’s degree at Beijing Institute of Technology.</p>
+    <p>I am <strong>{{ profile.name }} ({{ profile.chinese_name }})</strong>, a Research Scientist at the School of Computing and Information Systems (SCIS), <a href="{{ profile.institution_url }}">Singapore Management University</a> (SMU), working with Professor <a href="{{ profile.supervisor_url }}">David Lo</a>. I received my Ph.D. in Computer Science from SMU in January 2025 under his supervision. Before that, I obtained my bachelor’s degree from Beijing Institute of Technology.</p>
+    <p>My research lies at the intersection of <strong>Software Engineering (SE) and Artificial Intelligence (AI)</strong>, with the goal of making code LLMs and coding agents more capable, reliable, and useful for software development. Building on my earlier work on code representation learning and model generalization, my research now centers on three directions: <strong>(1) Agentic Software Engineering</strong>, developing techniques to improve coding agents’ core capabilities in requirement clarification, solution planning, program analysis, and issue resolution, while using trajectory analysis to identify bottlenecks and guide improvements; <strong>(2) Reliable Evaluation and Generalization</strong>, developing evaluation methods that reflect human judgments, account for benchmark contamination, and assess performance beyond training distributions, while extending evaluation from individual software development tasks to long-horizon, multi-step workflows; and <strong>(3) AI for Software Security and Reliability</strong>, advancing vulnerability detection, automated repair, and software quality assurance through program context and semantic reasoning.</p>
+    <p>This research has led to <strong>{{ published_papers.size }} publications, including {{ first_author_papers.size }} as first author</strong>, with work appearing in leading venues such as ICSE, FSE, ASE, TSE, TOSEM, and ACL.</p>
+    <p>I received the <strong>SMU Presidential Doctoral Fellowship in Computing (2024)</strong> and was recognized as a <strong>Distinguished Junior Program Committee Reviewer at MSR 2024</strong>. I also contribute to the research community through conference program committees, including the <strong>ICSE 2026 and ICSE 2027 Research Tracks</strong>, and reviewing for journals such as TSE, TIFS, and Empirical Software Engineering.</p>
   </div>
+  <p class="research-stats">
+    <span class="stat-item"><a href="{{ '/publications/' | relative_url }}"><strong>{{ published_papers.size }}</strong> publications</a></span>
+    <span class="stat-item"><span class="stat-separator" aria-hidden="true">|</span> <a href="{{ profile.scholar }}"><strong>{{ profile.scholar_metrics.citations }}</strong> citations</a></span>
+    <span class="stat-item"><span class="stat-separator" aria-hidden="true">|</span> <a href="{{ profile.scholar }}"><strong>{{ profile.scholar_metrics.h_index }}</strong> h-index</a>.</span>
+    <a class="collaboration-note" href="mailto:{{ profile.email }}">Open to collaboration.</a>
+  </p>
   <a class="text-link intro-link" href="{{ '/publications/' | relative_url }}">Explore my research {% include academic/icon.html name='arrow' %}</a>
 </section>
 
