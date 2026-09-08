@@ -1,0 +1,212 @@
+# Metadata migrated from Xin Zhou’s original homepage.
+# selected sets homepage order; omit it for full-list-only entries.
+# EMSE abbreviation corrected against the linked SMU publication record.
+- id: large-language-model-for-vulnerability-detection-and-repair-literature-review-and-the-road-ahead
+  title: 'Large language model for vulnerability detection and repair: Literature review and the road ahead'
+  authors:
+  - Xin Zhou
+  - Sicong Cao
+  - Xiaobing Sun
+  - David Lo
+  venue: TOSEM
+  year: 2025
+- id: exploring-parameter-efficient-fine-tuning-techniques-for-code-generation-with-large-language-models
+  title: Exploring Parameter-Efficient Fine-Tuning Techniques for Code Generation with Large Language Models
+  authors:
+  - Martin Weyssow
+  - Xin Zhou
+  - Kisub Kim
+  - David Lo
+  - Houari Sahraoui
+  venue: TOSEM
+  year: 2025
+- id: how-are-we-detecting-inconsistent-method-names-an-empirical-study-from-code-review-perspective
+  title: How are We Detecting Inconsistent Method Names? An Empirical Study from Code Review Perspective
+  authors:
+  - Kisub Kim
+  - Xin Zhou
+  - Dongsun Kim
+  - Julia Lawall
+  - Kui Liu
+  - Tegawendé F Bissyandé
+  - Jacques Klein
+  - Jaekwon Lee
+  - David Lo
+  venue: TOSEM
+  year: 2025
+- id: bridging-expert-knowledge-with-deep-learning-techniques-for-just-in-time-defect-prediction
+  title: Bridging expert knowledge with deep learning techniques for just-in-time defect prediction
+  authors:
+  - Xin Zhou
+  - DongGyun Han
+  - David Lo
+  venue: EMSE
+  year: 2025
+  paper: https://doi.org/10.1007/s10664-024-10591-0
+  source: https://ink.library.smu.edu.sg/sis_research/10106/
+- id: out-of-sight-out-of-mind-better-automatic-vulnerability-repair-by-broadening-input-ranges-and-sources
+  title: 'Out of Sight, Out of Mind: Better Automatic Vulnerability Repair by Broadening Input Ranges and Sources'
+  authors:
+  - Xin Zhou
+  - Kisub Kim
+  - Bowen Xu
+  - DongGyun Han
+  - David Lo
+  venue: ICSE
+  year: 2024
+  selected: 1
+  short_name: VulMaster
+  topic: Vulnerability repair
+  summary: Broadening the context available to code models with longer inputs, code structure, and expert knowledge
+    for vulnerability repair.
+  paper: https://doi.org/10.1145/3597503.3639222
+  code: https://github.com/soarsmu/VulMaster_
+- id: curiosity-driven-testing-for-sequential-decision-making-process
+  title: Curiosity-Driven Testing for Sequential Decision-Making Process
+  authors:
+  - Junda He
+  - Zhou Yang
+  - Jieke Shi
+  - Chengran Yang
+  - Kisub Kim
+  - Bowen Xu
+  - Xin Zhou
+  - David Lo
+  venue: ICSE
+  year: 2024
+- id: leveraging-large-language-model-for-automatic-patch-correctness-assessment
+  title: Leveraging Large Language Model for Automatic Patch Correctness Assessment
+  authors:
+  - Xin Zhou
+  - Bowen Xu
+  - Kisub Kim
+  - DongGyun Han
+  - Hung Huu Nguyen
+  - Thanh Le-Cong
+  - Junda He
+  - Bach Le
+  - David Lo
+  venue: TSE
+  year: 2024
+  selected: 2
+  short_name: LLM4PatchCorrect
+  topic: Patch assessment
+  summary: Using code language models and bug-related context to assess patches from previously unseen program repair
+    tools.
+  paper: https://doi.org/10.1109/TSE.2024.3452252
+- id: the-devil-is-in-the-tails-how-long-tailed-code-distributions-impact-large-language-models
+  title: 'The Devil is in the Tails: How Long-Tailed Code Distributions Impact Large Language Models'
+  authors:
+  - Xin Zhou
+  - Kisub Kim
+  - Bowen Xu
+  - Jiakun Liu
+  - DongGyun Han
+  - David Lo
+  venue: ASE
+  year: 2023
+  selected: 4
+  short_name: Long-tailed code
+  topic: Model evaluation
+  summary: Understanding how the long tail of software engineering data affects the performance of large language
+    models for code.
+  paper: https://arxiv.org/abs/2309.03567
+- id: ccbert-self-supervised-code-change-representation-learning
+  title: 'CCBERT: Self-Supervised Code Change Representation Learning'
+  authors:
+  - Xin Zhou
+  - Bowen Xu
+  - DongGyun Han
+  - Zhou Yang
+  - Junda He
+  - David Lo
+  venue: ICSME
+  year: 2023
+  selected: 3
+  short_name: CCBERT
+  topic: Representation learning
+  summary: Learning fine-grained representations of code changes from old and new code and edit actions, with self-supervised
+    pre-training.
+  paper: https://arxiv.org/abs/2309.15474
+  code: https://github.com/soarsmu/CCBERT
+- id: on-the-usage-of-continual-learning-for-out-of-distribution-generalization-in-pre-trained-language-models-of-code
+  title: On the Usage of Continual Learning for Out-of-Distribution Generalization in Pre-trained Language Models
+    of Code
+  authors:
+  - Martin Weyssow
+  - Xin Zhou
+  - Kisub Kim
+  - David Lo
+  - Houari Sahraoui
+  venue: ESEC/FSE
+  year: 2023
+- id: representation-learning-for-stack-overflow-posts-how-far-are-we
+  title: 'Representation Learning for Stack Overflow Posts: How Far are We?'
+  authors:
+  - Junda He
+  - Xin Zhou
+  - Bowen Xu
+  - Ting Zhang
+  - Kisub Kim
+  - Zhou Yang
+  - Ivana Clairine Irsan
+  - Ferdian Thung
+  - David Lo
+  venue: TOSEM
+  year: 2023
+- id: dexbert-effective-task-agnostic-and-fine-grained-representation-learning-of-android-bytecode
+  title: 'DexBERT: Effective, Task-Agnostic and Fine-grained Representation Learning of Android Bytecode'
+  authors:
+  - Tiezhu Sun
+  - Kevin Allix
+  - Kisub Kim
+  - Xin Zhou
+  - Dongsun Kim
+  - David Lo
+  - Tegawendé F Bissyandé
+  - Jacques Klein
+  venue: TSE
+  year: 2023
+- id: generation-based-code-review-automation-how-far-are-we
+  title: 'Generation-based Code Review Automation: How Far Are We?'
+  authors:
+  - Xin Zhou
+  - Kisub Kim
+  - Bowen Xu
+  - DongGyun Han
+  - Junda He
+  - David Lo
+  venue: ICPC
+  year: 2023
+- id: simple-or-complex-together-for-a-more-accurate-just-in-time-defect-predictor
+  title: Simple or Complex? Together for a More Accurate Just-in-time Defect Predictor
+  authors:
+  - Xin Zhou
+  - DongGyun Han
+  - David Lo
+  venue: ICPC
+  year: 2022
+- id: answer-summarization-for-technical-queries-benchmark-and-new-approach
+  title: 'Answer Summarization for Technical Queries: Benchmark and New Approach'
+  authors:
+  - Chengran Yang
+  - Bowen Xu
+  - Ferdian Thung
+  - Yucen Shi
+  - Ting Zhang
+  - Zhou Yang
+  - Xin Zhou
+  - Jieke Shi
+  - Junda He
+  - Donggyun Han
+  - David Lo
+  venue: ASE
+  year: 2022
+- id: assessing-generalizability-of-codebert
+  title: Assessing generalizability of CodeBERT
+  authors:
+  - Xin Zhou
+  - DongGyun Han
+  - David Lo
+  venue: ICSME
+  year: 2021

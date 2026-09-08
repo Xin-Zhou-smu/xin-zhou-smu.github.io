@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>{% if page.page_kind == 'home' %}Xin Zhou · Software Engineering Researcher{% else %}{{ page.title | escape }} · Xin Zhou{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ page.title | escape }} · Xin Zhou">
+  <meta property="og:description" content="{{ page.description | default: site.description | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ site.data.profile.photo | absolute_url }}">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}">
+  <script>
+    try {
+      var savedTheme = localStorage.getItem('xin-theme');
+      if (savedTheme === 'light' || savedTheme === 'dark') document.documentElement.dataset.theme = savedTheme;
+    } catch (e) { /* System preference remains the default when storage is unavailable. */ }
+  </script>
+  <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}">
+  <script src="{{ '/assets/js/academic.js' | relative_url }}" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-brand" href="{{ '/' | relative_url }}">Xin Zhou<span class="brand-dot" aria-hidden="true">.</span></a>
+      <div class="header-actions">
+        <nav class="primary-nav" aria-label="Main navigation" id="primary-nav">
+          {% for item in site.data.navigation.main %}
+          <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+          {% endfor %}
+        </nav>
+        <button class="icon-button theme-toggle" type="button" aria-label="Switch color theme" hidden>
+          <span class="theme-sun">{% include academic/icon.html name='sun' %}</span>
+          <span class="theme-moon">{% include academic/icon.html name='moon' %}</span>
+        </button>
+        <button class="icon-button menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation" hidden>
+          {% include academic/icon.html name='menu' %}
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="site-shell">
+    {% include academic/profile.html %}
+    <main id="main-content" class="main-content" tabindex="-1">
+      {% case page.page_kind %}
+      {% when 'home' %}{% include academic/home.html %}
+      {% when 'publications' %}{% include academic/publications.html %}
+      {% when 'experience' %}{% include academic/experience.html %}
+      {% else %}{{ content }}
+      {% endcase %}
+      <footer class="site-footer">
+        <span>© {{ site.time | date: '%Y' }} Xin Zhou</span>
+        <a href="#main-content">Back to top <span aria-hidden="true">↑</span></a>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{% assign profile = site.data.profile %}
+<header class="page-heading"><p class="eyebrow"><span class="accent-line" aria-hidden="true"></span>Academic background</p><h1>Experience & service<span class="heading-dot">.</span></h1><p>Research, teaching, and contributions to the software engineering community.</p></header>
+<nav class="section-nav" aria-label="On this page"><a href="#appointments">Research</a><a href="#education">Education</a><a href="#teaching">Teaching</a><a href="#service">Service</a><a href="#honors">Honors</a></nav>
+
+<section class="experience-section" id="appointments" aria-labelledby="appointments-title">
+  <div class="section-heading"><h2 id="appointments-title">Research appointment</h2></div>
+  <div class="appointment"><span class="status-badge">Current</span><h3>{{ profile.role }}</h3><p class="appointment-equivalent">Equivalent to a Postdoctoral Fellow</p><p><a href="{{ profile.institution_url }}">{{ profile.institution }}</a> · {{ profile.location }}</p><p>Software Engineering · Working with Prof. <a href="{{ profile.supervisor_url }}">{{ profile.supervisor }}</a></p></div>
+</section>
+<section class="experience-section" id="education" aria-labelledby="education-title">
+  <div class="section-heading"><h2 id="education-title">Education</h2></div>
+  {% for entry in profile.education %}<div class="experience-row"><span class="entry-date">{{ entry.period }}</span><div><h3>{{ entry.degree }}</h3><p><a href="{{ entry.url }}">{{ entry.institution }}</a></p>{% if entry.detail %}<p class="muted">{{ entry.detail }}</p>{% endif %}</div></div>{% endfor %}
+</section>
+<section class="experience-section" id="teaching" aria-labelledby="teaching-title">
+  <div class="section-heading"><h2 id="teaching-title">Teaching</h2></div>
+  {% for entry in profile.teaching %}<div class="experience-row"><span class="entry-date">{{ entry.year }}</span><div><h3>{{ entry.course }}</h3><p>{{ entry.role }} · {{ entry.institution }}</p></div></div>{% endfor %}
+</section>
+<section class="experience-section" id="service" aria-labelledby="service-title">
+  <div class="section-heading"><h2 id="service-title">Academic service</h2></div>
+  <h3 class="subsection-title">Program committees</h3>
+  {% for entry in profile.service.committees %}<div class="experience-row compact-row"><span class="entry-date">{{ entry.year }}</span><div><h4>{{ entry.venue }}</h4><p>{{ entry.detail }}</p></div></div>{% endfor %}
+  <h3 class="subsection-title">Journal reviewing</h3>
+  <ul class="reviewing-list">{% for journal in profile.service.reviewing %}<li>{{ journal }}</li>{% endfor %}</ul>
+  <h3 class="subsection-title">Recognition & volunteering</h3>
+  {% for entry in profile.service.recognition %}<div class="experience-row compact-row"><span class="entry-date">{{ entry.year }}</span><div><h4>{{ entry.title }}</h4><p>{{ entry.venue }}</p></div></div>{% endfor %}
+  {% for entry in profile.service.volunteering %}<div class="experience-row compact-row"><span class="entry-date">{{ entry.year }}</span><div><h4>{{ entry.title }}</h4><p>{{ entry.venue }}</p></div></div>{% endfor %}
+</section>
+<section class="experience-section" id="honors" aria-labelledby="honors-title">
+  <div class="section-heading"><h2 id="honors-title">Honors & awards</h2></div>
+  {% for award in profile.honors %}<div class="experience-row"><span class="entry-date">{{ award.year }}</span><div><h3>{{ award.title }}</h3>{% if award.detail %}<p>{{ award.detail }}</p>{% endif %}</div></div>{% endfor %}
+</section>

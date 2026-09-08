@@ -1,0 +1,55 @@
+{% assign profile = site.data.profile %}
+<section class="intro" aria-labelledby="intro-title">
+  <p class="eyebrow intro-eyebrow"><span class="accent-line" aria-hidden="true"></span>Software Engineering & Artificial Intelligence</p>
+  <h1 id="intro-title">Understanding and<br><em>improving AI for code.</em></h1>
+  <div class="intro-copy">
+    <p>I am <strong>Xin Zhou</strong>, a Research Scientist (equivalent to a Postdoctoral Fellow) in Software Engineering at <a href="{{ profile.institution_url }}">Singapore Management University</a>, working with Prof. <a href="{{ profile.supervisor_url }}">David Lo</a>.</p>
+    <p>My research focuses on understanding and enhancing the capabilities of large language models for code. I received my Ph.D. from SMU in January 2025, where I was a member of <a href="{{ profile.group_url }}">SOAR</a>. Before that, I completed my bachelor’s degree at Beijing Institute of Technology.</p>
+  </div>
+  <a class="text-link intro-link" href="{{ '/publications/' | relative_url }}">Explore my research {% include academic/icon.html name='arrow' %}</a>
+</section>
+
+<section class="research-section" aria-labelledby="research-title">
+  <div class="section-heading"><h2 id="research-title">Research interests</h2><span class="section-aside">Two complementary directions</span></div>
+  <div class="research-grid">
+    {% for area in profile.research %}
+    <div class="research-area">
+      <div class="research-icon">{% include academic/icon.html name=area.icon %}</div>
+      <h3>{{ area.title }}</h3>
+      <p>{{ area.description }}</p>
+      <span class="research-keywords">{{ area.keywords }}</span>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="selected-section" aria-labelledby="selected-title">
+  <div class="section-heading"><h2 id="selected-title">Selected publications</h2><a class="text-link" href="{{ '/publications/' | relative_url }}">View all {% include academic/icon.html name='arrow' %}</a></div>
+  {% assign selected = site.data.publications | where_exp: 'paper', 'paper.selected != nil' | sort: 'selected' %}
+  <div class="selected-papers">
+    {% for paper in selected %}{% include academic/paper.html paper=paper selected=true %}{% endfor %}
+  </div>
+</section>
+
+<div class="background-grid">
+  <section aria-labelledby="education-title">
+    <div class="section-heading"><h2 id="education-title">Education</h2></div>
+    {% for entry in profile.education %}
+    <div class="education-entry">
+      <span class="institution-mark" aria-hidden="true">{{ entry.abbreviation }}</span>
+      <div><span class="entry-date">{{ entry.period }}</span><h3>{{ entry.institution }}</h3><p>{{ entry.degree }}</p></div>
+    </div>
+    {% endfor %}
+  </section>
+  <section aria-labelledby="honors-title">
+    <div class="section-heading"><h2 id="honors-title">Honors & awards</h2></div>
+    {% for award in profile.honors %}
+    <div class="honor-entry"><span class="entry-date">{{ award.year }}</span><div><h3>{{ award.title }}</h3>{% if award.detail %}<p>{{ award.detail }}</p>{% endif %}</div></div>
+    {% endfor %}
+  </section>
+</div>
+
+<section class="contact-section" aria-labelledby="contact-title">
+  <div><p class="eyebrow">Get in touch</p><h2 id="contact-title">Let’s talk research.</h2><p>For research inquiries, you can reach me by email.</p></div>
+  <a class="contact-link" href="mailto:{{ profile.email }}">{{ profile.email }} {% include academic/icon.html name='external' %}</a>
+</section>

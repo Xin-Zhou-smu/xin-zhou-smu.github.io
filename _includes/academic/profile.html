@@ -1,0 +1,23 @@
+{% assign profile = site.data.profile %}
+<aside class="profile" aria-label="About Xin Zhou">
+  <div class="profile-inner">
+    <a class="portrait-link" href="{{ '/' | relative_url }}" aria-label="Xin Zhou home">
+      <img class="portrait" src="{{ profile.photo | relative_url }}" alt="Xin Zhou" width="1280" height="1280" fetchpriority="high">
+    </a>
+    <div class="profile-identity">
+      <p class="profile-name">{{ profile.name }} <span lang="zh">{{ profile.chinese_name }}</span></p>
+      <p class="profile-role">{{ profile.role }}</p>
+      <a class="profile-institution" href="{{ profile.institution_url }}">{{ profile.institution }}</a>
+      <p class="profile-location">{% include academic/icon.html name='pin' %} {{ profile.location }}</p>
+    </div>
+    <div class="profile-links">
+      <a href="mailto:{{ profile.email }}">{% include academic/icon.html name='mail' %}<span>Email</span>{% include academic/icon.html name='external' %}</a>
+      <a href="{{ profile.scholar }}">{% include academic/icon.html name='scholar' %}<span>Google Scholar</span>{% include academic/icon.html name='external' %}</a>
+      <a href="{{ profile.github }}">{% include academic/icon.html name='github' %}<span>GitHub</span>{% include academic/icon.html name='external' %}</a>
+    </div>
+    <div class="profile-note">
+      <span class="eyebrow">Research at the intersection of</span>
+      <p>Software Engineering<br><span class="note-amp">&</span> Artificial Intelligence</p>
+    </div>
+  </div>
+</aside>

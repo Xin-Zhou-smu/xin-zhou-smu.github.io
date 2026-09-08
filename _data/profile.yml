@@ -1,0 +1,91 @@
+name: Xin Zhou
+chinese_name: 周鑫
+role: Research Scientist
+institution: Singapore Management University
+institution_short: SMU
+institution_url: https://www.smu.edu.sg/
+location: Singapore
+photo: /images/photo.png
+# Address already present in the original site's configuration and published papers.
+email: xinzhou.2020@phdcs.smu.edu.sg
+scholar: https://scholar.google.com/citations?user=eQxzKOUAAAAJ
+github: https://github.com/Xin-Zhou-smu
+supervisor: David Lo
+supervisor_url: http://www.mysmu.edu/faculty/davidlo/
+group: SOAR
+group_url: https://soarsmu.github.io/
+
+research:
+  - title: Understanding code models
+    icon: search
+    description: Studying generalization, long-tailed data, and the capabilities of language models for code.
+    keywords: Model evaluation · Generalization
+  - title: Improving code models
+    icon: code
+    description: Learning better code representations and applying language models to vulnerability repair and patch assessment.
+    keywords: Representation learning · Software reliability
+
+education:
+  - institution: Singapore Management University
+    abbreviation: SMU
+    degree: Ph.D. in Computer Science
+    period: Aug. 2020 – Jan. 2025
+    detail: School of Computing and Information Systems
+    url: https://www.smu.edu.sg/
+  - institution: Beijing Institute of Technology
+    abbreviation: BIT
+    degree: B.S. in Automation Engineering
+    period: Aug. 2016 – Jul. 2020
+    url: https://www.bit.edu.cn/
+
+honors:
+  - title: SMU Presidential Doctoral Fellowship in Computing
+    year: '2024'
+  - title: Full Scholarship for Ph.D. Study
+    year: '2020–24'
+  - title: Outstanding Student Award
+    detail: Beijing Institute of Technology
+    year: '2018'
+
+teaching:
+  - course: Advanced Research Topics
+    role: Teaching Assistant
+    institution: Singapore Management University
+    year: '2024'
+  - course: Advanced Research Topics
+    role: Teaching Assistant
+    institution: Singapore Management University
+    year: '2023'
+  - course: Introduction to Programming
+    role: Teaching Assistant
+    institution: Singapore Management University
+    year: '2022'
+
+service:
+  committees:
+    - venue: ICSE
+      detail: Research Track · Program Committee
+      year: '2026'
+    - venue: AIware
+      detail: Program Committee
+      year: '2025'
+    - venue: FORGE
+      detail: Program Committee
+      year: '2024, 2025'
+    - venue: MSR
+      detail: Technical Papers Track · Junior Program Committee
+      year: '2023, 2024'
+  reviewing:
+    - IEEE Transactions on Software Engineering (TSE)
+    - IEEE Transactions on Information Forensics and Security (TIFS)
+    - Empirical Software Engineering (EMSE)
+    - Automated Software Engineering
+    - Communications of the ACM (CACM)
+  recognition:
+    - title: Distinguished Junior Program Committee Reviewer
+      venue: MSR
+      year: '2024'
+  volunteering:
+    - title: Student Volunteer
+      venue: ICSME
+      year: '2023'
